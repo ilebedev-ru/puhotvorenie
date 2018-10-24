@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7a2144c4-d4a0-4b24-abe6-bae896a828d7" name="pwdynamicretargeting" url="http://207.154.228.44">
+        <fileTransfer host="207.154.228.44" port="22" rootFolder="/var/www/zaurdemo1/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

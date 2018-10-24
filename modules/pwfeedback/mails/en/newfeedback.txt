@@ -1,0 +1,3 @@
+Feedback in {shop_name}
+{name} - {date}
+{feedback}

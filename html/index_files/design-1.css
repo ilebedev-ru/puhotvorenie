@@ -1,0 +1,509 @@
+#index .comments {
+
+    width: 100%;
+
+    overflow: hidden;
+
+    margin: 10px 0;
+
+    clear: both;
+
+    position: relative;
+
+}
+
+
+
+#index .comments .com-item {
+
+    float: left;
+
+    width: 48%;
+
+}
+
+
+
+#index .comments .right-part {
+
+    float: left;
+
+    width: 70%;
+
+}
+
+
+
+.comments.block .comment-blocks-switcher {
+
+    text-align: center;
+
+    color: #000;
+
+}
+
+
+
+.comments.block .comment-blocks-switcher span,
+
+.comments.block .comment-blocks-switcher i {
+
+    vertical-align: middle;
+
+    display: inline-block;
+
+}
+
+
+
+.comments.block .comment-blocks-switcher span {
+
+    font-size: 1.4em;
+
+}
+
+
+
+.comments.block .comment-blocks-switcher i {
+
+    font-size: 2.3em;
+
+    margin: 0 8px;
+
+    cursor: pointer;
+
+}
+
+
+
+.comments.block .list-div {
+
+    margin-top: 20px;
+
+}
+
+
+
+.comments.block .list-div .comment-blocks {
+
+    width: 100%;
+
+
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt {
+
+    width: 46%;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    padding: 0 35px;
+
+    margin: 0 1%;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .comments.block .list-div .comment-blocks .cnt {
+
+        width: 98%;
+
+    }
+
+
+
+    .comments.block .list-div .comment-blocks .cnt:nth-of-type(2) {
+
+        margin-top: 20px;
+
+    }
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt .person-photo,
+
+.comments.block .list-div .comment-blocks .cnt .person-name {
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt .person-photo {
+
+    width: 85px;
+
+    height: 85px;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt .person-photo img {
+
+    width: 100%;
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt .person-name {
+
+    margin: 0 0 0 15px;
+
+    font-size: 1.5em;
+
+    color: #000;
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt .person-comment {
+
+    margin-top: 20px;
+
+}
+
+
+
+.comments.block .list-div .comment-blocks .cnt .person-comment p {
+
+    color: #757575;
+
+    line-height: 1.5;
+
+    font-size: 1.2em;
+
+    font-family: Georgia, sans-serif;
+
+}
+
+
+
+.comments .com-item {
+
+    margin: 10px 0;
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+
+
+.comments .com-item .avatar {
+
+    float: left;
+
+    width: 80px;
+
+    border: 2px solid #e2e7e9;
+
+    display: block;
+
+    border-radius: 5px;
+
+    margin-right: 20px;
+
+}
+
+
+
+.comments .com-item .right-part {
+
+    background: none repeat scroll 0 0 #E2E7E9;
+
+    border-bottom: 1px solid #3D3C3C;
+
+    border-radius: 10px 10px 10px 10px;
+
+    border-right: 1px solid #3D3C3C;
+
+    float: left;
+
+    position: relative;
+
+    text-shadow: 1px 2px 3px #FFFFFF;
+
+    width: 430px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.comments .com-item .txt-box2 {
+
+    border-bottom: 1px solid #BFBFBF;
+
+    border-radius: 10px 10px 10px 10px;
+
+    border-right: 1px solid #BFBFBF;
+
+    padding: 10px;
+
+}
+
+
+
+.comments .com-item .right-part .angle {
+
+    left: -13px;
+
+    position: absolute;
+
+    top: 20px;
+
+    background: url('../img/angle.png') no-repeat center center;
+
+    width: 14px;
+
+    height: 16px;
+
+}
+
+
+
+.comments .com-item .txt-box2 .hd-top {
+
+    overflow: hidden;
+
+    margin: 0px 0px 5px 0;
+
+}
+
+
+
+.comments .com-item .txt-box2 .hd-top .name {
+
+    text-shadow: 1px 2px 3px #FFFFFF;
+
+    color: #000;
+
+    line-height: 18px;
+
+    font-size: 16px;
+
+}
+
+
+
+.comments .com-item .right-part .inner {
+
+    text-shadow: 1px 2px 3px #FFFFFF;
+
+    color: #666666;
+
+    font-size: 12px;
+
+    margin-top: 10px;
+
+}
+
+
+
+.comments h3 {
+
+    margin: 0px 0px 10px;
+
+    padding: 0px;
+
+}
+
+
+
+.comments.slider .bx-wrapper, .comments.slider .bx-viewport {
+
+    height: 190px;
+
+}
+
+
+
+.comments .com-item {
+
+    margin: 0px 0 20px;
+
+    overflow: hidden;
+
+}
+
+
+
+.comments .com-item .cnt {
+
+}
+
+
+
+.comments .com-item .name {
+
+    float: left;
+
+    font-size: 18px;
+
+    margin-right: 10px;
+
+    line-height: 18px;
+
+}
+
+
+
+.comments .com-item .hd-top {
+
+    clear: both;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.comments .com-item .inner {
+
+    display: block;
+
+    text-align: justify;
+
+}
+
+
+
+.comments .com-item .name i {
+
+    color: #333333;
+
+    font-style: normal;
+
+    font-size: 12px;
+
+}
+
+
+
+.comments .com-item .cnt-answer .txt-box2 .hd-top {
+
+    text-align: right;
+
+}
+
+
+
+.comments .com-item .cnt-answer .txt-box2 .hd-top .name {
+
+    float: none;
+
+}
+
+
+
+/* Answer */
+
+
+
+.comments .com-item .cnt-answer {
+
+    margin-top: 20px;
+
+}
+
+
+
+.comments .com-item .cnt-answer .right-part .inner {
+
+    color: #000;
+
+}
+
+
+
+.comments .com-item .cnt-answer .right-part {
+
+    background: none repeat scroll 0 0 #a2f888;
+
+    border-bottom: 1px solid #3D3C3C;
+
+    border-radius: 10px 10px 10px 10px;
+
+    border-right: 1px solid #3D3C3C;
+
+    float: left;
+
+    position: relative;
+
+    text-shadow: 1px 2px 3px #FFFFFF;
+
+    width: 325px;
+
+}
+
+
+
+.comments .com-item .cnt-answer .avatar {
+
+    float: right;
+
+    margin-right: 0px;
+
+    margin-left: 20px;
+
+}
+
+
+
+.comments .com-item .cnt-answer .right-part {
+
+    float: right;
+
+}
+
+
+
+.comments .com-item .cnt-answer .right-part .angle {
+
+    right: -13px;
+
+    left: inherit;
+
+    position: absolute;
+
+    top: 20px;
+
+    background: url('../img/angle2.png') no-repeat center center;
+
+    width: 14px;
+
+    height: 16px;
+
+}
+
+
+
+.pwfeedback .rating-static {
+
+    margin: 10px 0;
+
+    text-align: left;
+
+}

@@ -1,0 +1,228 @@
+#advancedcarrier .cart_navigation{
+    display: none;
+}
+#advancedcarrier .closeStep{
+    pointer-events: none;
+    transition: 0.5ms;
+}
+.form_info.form_error {
+    color: red;
+    margin: 0 15px 15px;
+}
+
+.loader_spinner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #6c317b;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#order .cart_navigation, #order .order_delivery {
+    display: none;
+}
+
+#order_step {
+    display: none;
+}
+
+#advancedcarrier  sup {
+    color: red;
+}
+
+#advancedcarrier  .form-group {
+    margin-bottom: 20px;
+}
+
+#advancedcarrier  {
+    margin-bottom: 20px;
+}
+
+#advancedcarrier label {
+    display: block;
+    float: none;
+    font-size: 16px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: auto;
+}
+#advancedcarrier label .descinfo {
+    font-weight: normal;
+}
+
+#carrier-select .radio-select {
+    width: 50px;
+    padding-top: 14px !important;
+}
+
+@media (max-width: 600px) {
+    #carrier-select .radio-select {
+        padding: 10px 0 0 0 !important;
+    }
+}
+
+#carrier-select tr:hover td {
+    background: #EEE;
+    cursor: pointer;
+}
+
+#carrier-select label {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#carrier-select .name {
+    width: 20%
+}
+
+.carrier-select .delay {
+    display: inline-block;
+    /*width: 50%;*/
+}
+
+#advancedcarrier  h3 {
+    margin-top: 0;
+}
+
+#advancedcarrier  input[type="text"], #advancedcarrier  textarea, #advancedcarrier  input[type="tel"], #advancedcarrier  input[type="email"] {
+    border: 1px solid #572664;
+    color: #333333;
+    font-size: 18px;
+    margin-left: 0;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-top: 7px;
+    transition: all 0.3s ease-in-out 0s;
+    height: auto;
+}
+
+#advancedcarrier  input[type="text"]:focus, #advancedcarrier  textarea:focus {
+    border: 1px solid #c268d2;
+}
+
+#submitPwExpressOrder {
+    margin: 15px 0 50px;
+    background: #c268d2;
+    padding: 8px 25px;
+    color: #fff;
+    box-shadow: 5px 5px 10px #ccc;
+    font-size: 18px;
+}
+
+#submitPwExpressOrder:active, #submitPwExpressOrder:hover{
+    box-shadow: none;
+}
+
+.table thead > tr > th, .table thead > tr > td, #carrier-select.table tbody > tr > th, #carrier-select.table tbody > tr > td, .table tfoot > tr > th, .table tfoot > tr > td {
+    border-top: 1px solid #d6d4d4;
+    line-height: 1.42857;
+    padding: 9px 8px 11px 18px;
+    vertical-align: top;
+}
+
+#advancedcarrier  .help_info i {
+    font-size: 18px;
+    /*padding:3px;*/
+    /*display: inline-block;*/
+}
+
+#advancedcarrier  .help_info {
+    font-size: 12px;
+    padding: 3px 0;
+    color: #666;
+}
+
+#button_order_cart {
+    display: none;
+}
+
+.cart_quantity_delete {
+    font-size: 18px;
+}
+
+.cart_quantity_delete:hover i {
+    color: #c268d2;
+}
+
+
+
+#advancedcarrier  .carrier-select h3{
+    font-weight: bold;
+    margin-top: 15px !important;
+}
+
+#advancedcarrier  .carrier-select .deliv-type{
+    width: 400px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#advancedcarrier  .carrier-select .deliv-type *, #advancedcarrier  .carrier-select .deliv-type{
+    cursor: pointer;
+}
+
+#advancedcarrier  .carrier-select .deliv-type .radio-select{
+    float: left;
+    margin-right: 10px;
+}
+
+#advancedcarrier  .carrier-select .deliv-type img.logo{
+    top: 8px;
+    position: absolute;
+    right: 30px;
+    width: 32px;
+}
+
+#advancedcarrier  .carrier-select .deliv-type .cost{
+    float: right;
+}
+
+#advancedcarrier  .carrier-select .brdr{
+    border-color: #c268d2;
+    border-width: 3px;
+    padding: 18px 28px;
+}
+
+
+@media (max-width: 600px) {
+    #advancedcarrier  .carrier-select .deliv-type{
+        width: 300px;
+        margin: 10px 0;
+    }
+}
+#advancedcarrier  .carrier-select > h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    padding: 0;
+}
+#advancedcarrier .panel-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+#advancedcarrier #shippingtadv{
+    margin-top: 15px;
+}

@@ -1,0 +1,29 @@
+#my-account #center_column .title_block {
+    font-weight: normal;
+}
+
+#my-account .myaccount_lnk_list {
+    list-style-type: none
+}
+
+#my-account .myaccount_lnk_list li a {
+    padding: 8px 0;
+    display: block;
+}
+
+#my-account .myaccount_lnk_list li a:hover {
+    color: #be40df;
+}
+
+.leo-wrapper .myaccount_lnk_list li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#my-account .myaccount_lnk_list img.icon,
+#my-account p img.icon {
+    position: relative;
+    margin-right: 4px;
+    left: 0;
+    width: 18px;
+}

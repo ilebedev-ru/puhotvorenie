@@ -1,0 +1,48 @@
+/* Block newsletter */
+#newsletter_block_left {
+	padding:7px;
+	border:1px solid #ccc;
+	background:#eee;
+}
+#newsletter_block_left .title_block, #newsletter_block_left h4  {
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#newsletter_block_left p {padding:0;}
+
+#newsletter_block_left p.success_inline {
+	color: #418B19;
+	text-align: center;
+	font-weight: bold;
+}
+#newsletter_block_left p.warning_inline {
+	color: #DA0F00;
+	text-align: center;
+	font-weight: bold;
+}
+
+#newsletter_block_left input.inputNew {
+    display: inline-block;
+    width: 200px;
+    padding: 5px 10px;
+    font-style: italic;
+    margin-bottom: 10px;
+    height: 45px;
+}
+*:first-child+html #newsletter_block_left input.inputNew {position:static;}/* hack ie 7 */
+
+#newsletter_block_left input.button_mini {
+	cursor:pointer
+;
+	margin-bottom: 20px;
+}
+*:first-child+html #newsletter_block_left input.button_mini {padding-left:24px !important;}/* hack ie 7 */
+
+#contentbottom #newsletter_block_left{
+	text-align: center;
+	background: #F5F5F5 url('img/email.png') no-repeat 91px -106px;
+	border-top: 1px solid #000;
+	padding: 5px 20px
+;
+	margin-top: 15px;
+}

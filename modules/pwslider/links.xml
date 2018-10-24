@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<links>
+<link>
+		<id>1</id>
+		<field1>Палантин хамелеон</field1>
+		<field2>Волшебная магия перевоплощения. Добавляем образу настроение! Будь весенней феей даже в лютые морозы!</field2>
+		<field4>2100 рублей</field4>
+		<vip>1</vip>
+		<url>http://puhotvorenie.ru/25-palantiny-s-perelivami-hameleony</url>
+		<img>slides/slide_1.png</img>
+	</link>
+<link>
+		<id>2</id>
+		<field1>Палантин белый</field1>
+		<field2>Лучший подарок любимой, когда за окном метет белая метелица!</field2>
+		<field4>1750 рублей</field4>
+		<url>http://puhotvorenie.ru/35-palantin-belyy</url>
+		<img>slides/slide_2.png</img>
+	</link>
+<link>
+		<id>3</id>
+		<field1>Палантин с кисточками</field1>
+		<field2>Палантин с кисточками прекрасен и как шарф и как накидка! Потрясающей красоты изделие для любимой в прохладную погоду!</field2>
+		<field4>1850 рублей</field4>
+		<url>http://puhotvorenie.ru/28-nedorogie-izdeliya</url>
+		<img>slides/slide_3.png</img>
+	</link>
+</links>

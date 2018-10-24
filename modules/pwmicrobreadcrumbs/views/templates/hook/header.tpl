@@ -1,0 +1,3 @@
+<script>
+    $pwmicrobreadcrumbspipe='{$pwmicrobreadcrumbspipe}';
+</script>

@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{statscheckup}leofash>statscheckup_e7a908d79d3758c911692ba791da9c70'] = 'Katalog evaluasi';
+$_MODULE['<{statscheckup}leofash>statscheckup_24f870376156be0e8e22cfb94d29df6d'] = 'Cepat evaluasi kualitas katalog Anda.';
+$_MODULE['<{statscheckup}leofash>statscheckup_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Konfigurasi diperbarui';
+$_MODULE['<{statscheckup}leofash>statscheckup_7ff3e75ce6aca348bc513ed3d5882946'] = 'buruk';
+$_MODULE['<{statscheckup}leofash>statscheckup_b1897515d548a960afe49ecf66a29021'] = 'rata-rata';
+$_MODULE['<{statscheckup}leofash>statscheckup_0c6ad70beb3a7e76c3fc7adab7c46acc'] = 'baik';
+$_MODULE['<{statscheckup}leofash>statscheckup_619a1efbedc7855aa27c0a50579c104e'] = 'Produk tidak ditemukan';
+$_MODULE['<{statscheckup}leofash>statscheckup_8bc84316c4078bf66723fd019616d920'] = 'Deskripsi';
+$_MODULE['<{statscheckup}leofash>statscheckup_aed2078f8eaaf31e013a3c24618cb130'] = 'karakter (tanpa HTML)';
+$_MODULE['<{statscheckup}leofash>statscheckup_fff0d600f8a0b5e19e88bfb821dd1157'] = 'Gambar';
+$_MODULE['<{statscheckup}leofash>statscheckup_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Penjualan';
+$_MODULE['<{statscheckup}leofash>statscheckup_c3917e1f7138a24c6dc954fe81b86679'] = 'perintah / bulan';
+$_MODULE['<{statscheckup}leofash>statscheckup_7bd5825a187064017975513b95d7f7de'] = 'Jumlah tersedia untuk dijual';
+$_MODULE['<{statscheckup}leofash>statscheckup_9dea4016dbcc290b773ab2fae678aaa8'] = 'item';
+$_MODULE['<{statscheckup}leofash>statscheckup_dc270bcf468689b19074a5eef7581b52'] = 'Tidak cukup';
+$_MODULE['<{statscheckup}leofash>statscheckup_f4abc77d498c89880f67331609406774'] = 'Baik';
+$_MODULE['<{statscheckup}leofash>statscheckup_ad647e4ae904c7ed54ee93040d8298c7'] = 'lebih rendah dari';
+$_MODULE['<{statscheckup}leofash>statscheckup_05824b7be006782aaefd1fdb97c71e06'] = 'lebih besar dari';
+$_MODULE['<{statscheckup}leofash>statscheckup_38fb7d24e0d60a048f540ecb18e13376'] = 'Save';
+$_MODULE['<{statscheckup}leofash>statscheckup_01fda57aa6c7e9f07f5aa36b108e95cb'] = 'Order by';
+$_MODULE['<{statscheckup}leofash>statscheckup_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{statscheckup}leofash>statscheckup_49ee3087348e8d44e1feda1917443987'] = 'Nama';
+$_MODULE['<{statscheckup}leofash>statscheckup_7d74f3b92b19da5e606d737d339a9679'] = 'Barang';
+$_MODULE['<{statscheckup}leofash>statscheckup_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Aktif';
+$_MODULE['<{statscheckup}leofash>statscheckup_3f74e68055b1123e5d7deb32cd8b0b1b'] = 'Penj.';
+$_MODULE['<{statscheckup}leofash>statscheckup_4cc6684df7b4a92b1dec6fce3264fac8'] = 'Global';

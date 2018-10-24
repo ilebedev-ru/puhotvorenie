@@ -1,0 +1,4 @@
+
+<br />
+<p>{$paycontent}</p>
+

@@ -1,0 +1,37 @@
+.pwcopyright {
+    display: block;
+    text-align: center;
+    margin: 15px 0 60px;
+}
+
+.pwcopyright img {
+    position: relative;
+}
+
+.pwcopyright img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.pwcopyright:hover img {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.pwcopyright span {
+    display: block;
+    margin-top: 5px;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+.pwcopyright span:hover {
+    text-decoration: none;
+}
+
+.pwcopyright-dark span {
+    color: #FFF;
+}

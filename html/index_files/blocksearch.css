@@ -1,0 +1,27 @@
+/* block top search */
+
+#searchbox  .button {
+    background: url("img/icon-search.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    box-shadow: none;
+    height: 18px;
+    padding: 0;
+    text-indent: 999px;
+    width: 13px;
+	border-color: transparent;
+	position: absolute;
+	right: 4px;
+	top: 8px;
+	overflow: hidden;
+}
+#search_query_top {
+	border-radius: 0;
+	/*height: 31px;*/
+	padding-right: 28px;
+}
+@media screen and (max-width: 768px) {
+	#searchbox  .button {
+		display: none;
+	}
+}
+

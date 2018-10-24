@@ -1,0 +1,106 @@
+/* Special style for block cart*/
+
+#header  #cart_block .title_block, #header  #cart_block h4 {
+	display: none;
+}
+#header #cart_block {
+	z-index: 10;
+	display:none;
+	position: absolute;
+	right: 10px;
+	top: 40px;
+	height: auto;
+	width: 244px;
+	background:#101010;
+	border: 1px solid #101010;
+	border-top: 0;
+}
+.top-wrap #cart_block a,
+.top-wrap #cart_block #cart_block_list dt{color: #999;}
+.top-wrap #cart_block .price {color: #999; font-weight: normal; font-size: 13px;}
+.top-wrap #cart_block #cart-prices {
+    line-height: 25px;
+    color: #999;
+}
+
+#cart_block.cart_block_hover {display:block}
+#cart_block .title_block  span, #header  #cart_block h4 {
+	float: right;
+	padding-left: 10px;
+	text-transform: none;
+	background-position: left top;
+	background-repeat: no-repeat;
+	cursor: pointer
+}
+
+#cart_block  .block_content {padding:8px 8px 16px 8px;}
+
+#cart_block #cart_block_summary {display:none}
+#cart_block .quantity-formated {
+	display:inline-block;
+	padding-right:2px;
+	min-width:18px;
+	vertical-align: top;
+}
+#cart_block .cart_block_product_name {font-weight:bold}
+#cart_block .remove_link, #cart_block .deleteCustomizableProduct {
+	float:right;
+	display:inline-block;
+	margin:1px 0 0 5px;
+	height:12px;
+	width:12px
+}
+#cart_block .remove_link a, #cart_block .ajax_cart_block_remove_link {
+	display:inline-block;
+	height:12px;
+	width:12px;
+	background: url(img/icon/delete.png) no-repeat 0 0
+}
+#cart_block .price {
+	float:right
+}
+
+#cart_block #cart_block_list dl {
+	padding-bottom:10px
+}
+#cart_block #cart_block_list dt {padding:4px 0}
+#cart_block #cart_block_list dt a {
+	font-weight:bold; display: inline-block; max-width: 95px;
+	color: #999;
+}
+#cart_block #cart_block_list dd {
+	margin-left:20px
+}
+
+
+#cart_block #cart_block_shipping_cost,
+#cart_block #cart_block_total {
+	float:right
+}
+#cart_block #cart_block_shipping_cost {font-weight:bold}
+
+#cart_block #cart-buttons .button_small {display:none;}
+#cart_block #cart-buttons  #button_order_cart {
+	float:right;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+#cart_block table#vouchers {
+	clear: both;
+	width:100%
+}
+#cart_block table#vouchers tr td{
+	padding: 2px;
+}
+#cart_block table#vouchers tr td.quantity{
+	margin-right:5px;
+	min-width:18px
+}
+#cart_block table#vouchers tr td.delete{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+	width: 15px;
+}
+

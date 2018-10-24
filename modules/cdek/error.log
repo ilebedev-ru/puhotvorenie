@@ -1,0 +1,3519 @@
+17:17:52 09-06-2017: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2016-06-30" Account="" Secure="961ff9996152fe0e71d12efecbed061c" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2016-06-30" DateLast="2017-06-09">
+  <Order Number="27" Date="2016-06-30"/>
+</StatusReport>
+',
+)
+17:17:53 09-06-2017: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'Date' => '2016-06-30',
+      'ErrorCode' => 'ERR_AUTH',
+      'Msg' => 'Интернет-магазин не идентифицирован: Account=, Secure=961ff9996152fe0e71d12efecbed061c',
+    ),
+  ),
+)
+11:16:26 09-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-03-21" Account="d7e231af145bad1e217133773d07b35d" Secure="d4e843e813dd30f0bd0423f3baf2b923" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-03-21" DateLast="2018-04-09">
+  <Order Number="58" Date="2018-03-21"/>
+</StatusReport>
+',
+)
+11:16:26 09-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '58',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=58',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+18:30:42 09-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-03-21" Account="d7e231af145bad1e217133773d07b35d" Secure="d4e843e813dd30f0bd0423f3baf2b923" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-03-21" DateLast="2018-04-09">
+  <Order Number="58" Date="2018-03-21"/>
+</StatusReport>
+',
+)
+18:30:43 09-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '58',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=58',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+18:31:47 09-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2017-11-03" Account="d7e231af145bad1e217133773d07b35d" Secure="662d515ded8fbe03bf1b1a95b987ab85" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2017-11-03" DateLast="2018-04-09">
+  <Order Number="8" Date="2017-11-03"/>
+</StatusReport>
+',
+)
+18:31:47 09-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '8',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=8',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+18:32:14 09-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-02-09" Account="d7e231af145bad1e217133773d07b35d" Secure="37cb6f00094372698d6d3f379af1030e" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-02-09" DateLast="2018-04-09">
+  <Order Number="36" Date="2018-02-09"/>
+</StatusReport>
+',
+)
+18:32:15 09-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '36',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=36',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:08:30 10-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-09" Account="d7e231af145bad1e217133773d07b35d" Secure="2a59abf7723f38a1c0b94770be38c942" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-09" DateLast="2018-04-10">
+  <Order Number="61" Date="2018-04-09"/>
+</StatusReport>
+',
+)
+13:08:30 10-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '61',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=61',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:40:14 12-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-12" Account="d7e231af145bad1e217133773d07b35d" Secure="b16592dd2ff79f15231ccc72e6bba216" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-12" DateLast="2018-04-12">
+  <Order Number="65" Date="2018-04-12"/>
+</StatusReport>
+',
+)
+00:40:14 12-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '65',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=65',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+06:41:17 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="66" Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" OrderCount="1">
+  <Order Number="66" Address="ул. Иванова 34-40 " DeliveryRecipientCost="2990.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="456.1">
+    <Package Number="1" BarCode="101" Weight="1003000">
+      <Item WareKey="demo_6__1" Cost="50" Payment="50" Weight="3000" Amount="4" Comment="Printed Summer Dress" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+      <Item WareKey="demo_2__2" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-04-17 00:00:00" TimeBeg="0:00:00" TimeEnd="23:59:00"/>
+    </Schedule>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+06:42:41 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="66" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+06:42:48 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="66" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+06:43:01 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="66" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+06:43:16 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="66" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+06:44:28 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="66" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+06:44:34 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="66" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+06:44:39 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-12" Account="d7e231af145bad1e217133773d07b35d" Secure="b16592dd2ff79f15231ccc72e6bba216" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-12" DateLast="2018-04-16">
+  <Order Number="65" Date="2018-04-12"/>
+</StatusReport>
+',
+)
+06:44:47 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-12" Account="d7e231af145bad1e217133773d07b35d" Secure="b16592dd2ff79f15231ccc72e6bba216" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-12" DateLast="2018-04-16">
+  <Order Number="65" Date="2018-04-12"/>
+</StatusReport>
+',
+)
+06:44:47 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-12" Account="d7e231af145bad1e217133773d07b35d" Secure="b16592dd2ff79f15231ccc72e6bba216" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-12" DateLast="2018-04-16">
+  <Order Number="65" Date="2018-04-12"/>
+</StatusReport>
+',
+)
+06:57:30 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="67" Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" OrderCount="1">
+  <Order Number="67" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1180.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="1" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="180">
+    <Package Number="1" BarCode="101" Weight="1002000">
+      <Item WareKey="demo_7_1__1" Cost="100" Payment="100" Weight="2000" Amount="1" Comment="Printed Chiffon Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+      <Item WareKey="demo_5_1__2" Cost="100" Payment="100" Weight="1000000" Amount="1" Comment="Printed Summer Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+06:57:43 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+09:14:19 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+09:16:08 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-12" Account="d7e231af145bad1e217133773d07b35d" Secure="b16592dd2ff79f15231ccc72e6bba216" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-12" DateLast="2018-04-16">
+  <Order Number="64" Date="2018-04-12"/>
+</StatusReport>
+',
+)
+09:16:12 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+13:53:11 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+13:53:30 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+13:56:29 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+13:56:46 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:29:54 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:30:08 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:30:33 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:31:30 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:31:39 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:33:47 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:34:13 16-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-16">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+08:24:20 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-17">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:25:34 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-17">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:26:24 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-17">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:27:44 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-17">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:34:27 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-17">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:35:44 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="d7e231af145bad1e217133773d07b35d" Secure="8c09e8e5afa2ca29331b3a37025b10cc" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-04-17">
+  <Order Number="67" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+14:39:56 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="68" Date="2018-04-17" Account="d7e231af145bad1e217133773d07b35d" Secure="1ff81536727e6137d337892b5d8c28c4" OrderCount="1">
+  <Order Number="68" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-04-17 00:00:00" TimeBeg="0:00:00" TimeEnd="23:59:00"/>
+    </Schedule>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:40:15 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-17" Account="d7e231af145bad1e217133773d07b35d" Secure="1ff81536727e6137d337892b5d8c28c4" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-17" DateLast="2018-04-17">
+  <Order Number="68" Date="2018-04-17"/>
+</StatusReport>
+',
+)
+15:21:12 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="69" Date="2018-04-17" Account="d7e231af145bad1e217133773d07b35d" Secure="1ff81536727e6137d337892b5d8c28c4" OrderCount="1">
+  <Order Number="69" Address="ул. Иванова 34-40 " DeliveryRecipientCost="560.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="63" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="85.42">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="3" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+16:14:33 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="70" Date="2018-04-17" Account="d7e231af145bad1e217133773d07b35d" Secure="1ff81536727e6137d337892b5d8c28c4" OrderCount="1">
+  <Order Number="70" Address="Test Test" DeliveryRecipientCost="110.000000" SendCityPostCode="432011" RecCityPostCode="432000" RecipientName="Test test" Phone="+79000000001" Comment="" TariffTypeCode="10" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="ULN6" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="16.78">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-04-19 00:00:00" TimeBeg="13:10:00" TimeEnd="16:30:00"/>
+    </Schedule>
+    <Address PvzCode="ULN6"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+16:17:59 17-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="71" Date="2018-04-17" Account="d7e231af145bad1e217133773d07b35d" Secure="1ff81536727e6137d337892b5d8c28c4" OrderCount="1">
+  <Order Number="71" Address="Test Test" DeliveryRecipientCost="110.000000" SendCityPostCode="432011" RecCityPostCode="432000" RecipientName="Test test" Phone="+79000000001" Comment="" TariffTypeCode="10" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="ULN6" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="16.78">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_5_1__1" Cost="100" Payment="100" Weight="1000000" Amount="1" Comment="Printed Summer Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-04-18 00:00:00" TimeBeg="0:00:00" TimeEnd="23:59:00"/>
+    </Schedule>
+    <Address PvzCode="ULN6"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+15:23:12 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="72" Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" OrderCount="1">
+  <Order Number="72" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+15:23:51 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:05 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:06 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:06 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:06 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:07 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:07 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:25:07 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="72" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+15:27:09 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="73" Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" OrderCount="1">
+  <Order Number="73" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+15:27:18 18-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="d7e231af145bad1e217133773d07b35d" Secure="c6ddfdfc94516e77d63e7c1636e49b65" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-04-18">
+  <Order Number="73" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+14:28:33 20-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="74" Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" OrderCount="1">
+  <Order Number="74" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:04:37 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:45 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:45 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:45 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:45 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:45 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:45 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:47 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:04:47 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-20" Account="d7e231af145bad1e217133773d07b35d" Secure="1a7d6356750d71ee80c91427775c1449" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-20" DateLast="2018-04-26">
+  <Order Number="74" Date="2018-04-20"/>
+</StatusReport>
+',
+)
+10:06:30 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="75" Date="2018-04-26" Account="d7e231af145bad1e217133773d07b35d" Secure="7067646707e017e99704e081758521cb" OrderCount="1">
+  <Order Number="75" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-04-28 00:00:00" TimeBeg="03:10:00" TimeEnd="06:30:00"/>
+    </Schedule>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:06:43 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-26" Account="d7e231af145bad1e217133773d07b35d" Secure="7067646707e017e99704e081758521cb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-26" DateLast="2018-04-26">
+  <Order Number="75" Date="2018-04-26"/>
+</StatusReport>
+',
+)
+10:08:33 26-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="76" Date="2018-04-26" Account="d7e231af145bad1e217133773d07b35d" Secure="7067646707e017e99704e081758521cb" OrderCount="1">
+  <Order Number="76" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-04-29 00:00:00" TimeBeg="14:00:00" TimeEnd="20:59:00"/>
+    </Schedule>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+13:38:32 27-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-26" Account="d7e231af145bad1e217133773d07b35d" Secure="7067646707e017e99704e081758521cb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-26" DateLast="2018-04-27">
+  <Order Number="76" Date="2018-04-26"/>
+</StatusReport>
+',
+)
+13:38:32 27-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '76',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=76',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:42:03 27-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="77" Date="2018-04-27" Account="d7e231af145bad1e217133773d07b35d" Secure="f4e81b9a55feb72de8f6750b1f45859b" OrderCount="1">
+  <Order Number="77" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+13:42:06 27-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERR_INVALID_TARIFF_WITH_WEIGHT_MORE_30',
+          'Msg' => 'Для выбранного тарифа вес должен быть меньше 30кг',
+          'Number' => '77',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+13:42:12 27-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-27" Account="d7e231af145bad1e217133773d07b35d" Secure="f4e81b9a55feb72de8f6750b1f45859b" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-27" DateLast="2018-04-27">
+  <Order Number="77" Date="2018-04-27"/>
+</StatusReport>
+',
+)
+13:42:12 27-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '77',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=77',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:43:48 27-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="78" Date="2018-04-27" Account="d7e231af145bad1e217133773d07b35d" Secure="f4e81b9a55feb72de8f6750b1f45859b" OrderCount="1">
+  <Order Number="78" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-05-10 00:00:00" TimeBeg="14:10:00" TimeEnd="16:25:00"/>
+    </Schedule>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+13:43:48 27-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERR_INVALID_TARIFF_WITH_WEIGHT_MORE_30',
+          'Msg' => 'Для выбранного тарифа вес должен быть меньше 30кг',
+          'Number' => '78',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+13:43:57 27-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-27" Account="d7e231af145bad1e217133773d07b35d" Secure="f4e81b9a55feb72de8f6750b1f45859b" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-27" DateLast="2018-04-27">
+  <Order Number="78" Date="2018-04-27"/>
+</StatusReport>
+',
+)
+13:43:57 27-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '78',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=78',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:44:20 27-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-27" Account="d7e231af145bad1e217133773d07b35d" Secure="f4e81b9a55feb72de8f6750b1f45859b" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-27" DateLast="2018-04-27">
+  <Order Number="77" Date="2018-04-27"/>
+</StatusReport>
+',
+)
+13:44:20 27-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '77',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=77',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:03:25 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="79" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="79" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:03:26 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERR_INVALID_TARIFF_WITH_WEIGHT_MORE_30',
+          'Msg' => 'Для выбранного тарифа вес должен быть меньше 30кг',
+          'Number' => '79',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+10:03:41 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="79" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:03:41 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '79',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=79',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:12:37 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="79" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:12:37 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '79',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=79',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:12:40 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="80" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="80" Address="ул. Иванова 34-40 " DeliveryRecipientCost="780.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="118.98">
+    <Package Number="1" BarCode="101" Weight="1004000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+      <Item WareKey="demo_7_1__2" Cost="100" Payment="100" Weight="2000" Amount="1" Comment="Printed Chiffon Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+      <Item WareKey="demo_7_6__3" Cost="100" Payment="100" Weight="2000" Amount="1" Comment="Printed Chiffon Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:13:55 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113520',
+          'Number' => '80',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+10:15:20 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="79" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:15:21 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '79',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=79',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:15:46 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="79" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:15:46 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '79',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=79',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:16:24 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="79" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="79" Address="ул. Иванова 34-40 " DeliveryRecipientCost="210.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="32.03">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:16:24 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERR_INVALID_TARIFF_WITH_WEIGHT_MORE_30',
+          'Msg' => 'Для выбранного тарифа вес должен быть меньше 30кг',
+          'Number' => '79',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+10:16:25 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="79" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:16:25 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '79',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=79',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:21:03 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="80" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:21:03 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:21:03+00:00',
+    ),
+  ),
+)
+10:25:13 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="80" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:25:13 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:25:13+00:00',
+    ),
+  ),
+)
+10:26:10 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="80" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:26:10 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:26:10+00:00',
+    ),
+  ),
+)
+10:26:49 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="79" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:26:49 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '79',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=79',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:28:30 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="80" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:28:30 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:28:30+00:00',
+    ),
+  ),
+)
+10:29:12 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="80" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:29:12 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:29:12+00:00',
+    ),
+  ),
+)
+10:29:18 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="80" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="80" Address="ул. Иванова 34-40 " DeliveryRecipientCost="780.000000" SendCityPostCode="432011" RecCityPostCode="105523" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="118.98">
+    <Package Number="1" BarCode="101" Weight="1004000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+      <Item WareKey="demo_7_1__2" Cost="100" Payment="0" Weight="2000" Amount="1" Comment="Printed Chiffon Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+      <Item WareKey="demo_7_6__3" Cost="100" Payment="0" Weight="2000" Amount="1" Comment="Printed Chiffon Dress" PaymentVATRate="VAT18" PaymentVATSum="15.25"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:29:45 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_VALIDATE_IM_DEP_NUMBER_HAS_ALREADY_HAD',
+          'Msg' => 'Номер отправления ИМ должен быть уникальным у одного Контрагента',
+          'Number' => '80',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+10:29:46 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="80" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:29:46 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:29:46+00:00',
+    ),
+  ),
+)
+10:43:43 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="81" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="81" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1090.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="166.27">
+    <Package Number="1" BarCode="101" Weight="3000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+      <Item WareKey="demo_2_12__2" Cost="845.32" Payment="845.32" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="128.95"/>
+      <Item WareKey="demo_2_57__3" Cost="597.52" Payment="597.52" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="91.15"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:44:34 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113523',
+          'Number' => '81',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+10:45:05 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="81" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:45:05 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:45:05+00:00',
+    ),
+  ),
+)
+10:46:00 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="81" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:46:00 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:46:00+00:00',
+    ),
+  ),
+)
+10:46:14 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="81" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:46:14 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:46:14+00:00',
+    ),
+  ),
+)
+10:46:25 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="81" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="81" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1090.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="166.27">
+    <Package Number="1" BarCode="101" Weight="3000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+      <Item WareKey="demo_2_12__2" Cost="845.32" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="128.95"/>
+      <Item WareKey="demo_2_57__3" Cost="597.52" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="91.15"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:46:48 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_VALIDATE_IM_DEP_NUMBER_HAS_ALREADY_HAD',
+          'Msg' => 'Номер отправления ИМ должен быть уникальным у одного Контрагента',
+          'Number' => '81',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+10:46:48 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="81" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:46:48 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:46:48+00:00',
+    ),
+  ),
+)
+10:49:15 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeleteRequest Number="81" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="81"/>
+</DeleteRequest>
+',
+)
+10:49:16 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113523',
+          'Number' => '81',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Удалено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+10:49:47 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="81" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="81" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1090.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="166.27">
+    <Package Number="1" BarCode="101" Weight="3000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+      <Item WareKey="demo_2_12__2" Cost="845.32" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="128.95"/>
+      <Item WareKey="demo_2_57__3" Cost="597.52" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="91.15"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:50:10 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113524',
+          'Number' => '81',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+10:50:11 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="81" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:50:11 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T07:50:11+00:00',
+    ),
+  ),
+)
+11:24:16 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="82" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="82" Address="ул. Иванова 34-40 " DeliveryRecipientCost="890.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="137" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="135.76">
+    <Package Number="1" BarCode="101" Weight="2000">
+      <Item WareKey="demo_2_1__1" Cost="50" Payment="50" Weight="2000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-05-07 00:00:00" TimeBeg="00:05:00" TimeEnd="23:59:00"/>
+    </Schedule>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+11:25:03 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113525',
+          'Number' => '82',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+11:31:51 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+11:31:51 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T08:31:51+00:00',
+    ),
+  ),
+)
+11:44:28 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeleteRequest Number="82" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="82"/>
+</DeleteRequest>
+',
+)
+11:44:29 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113525',
+          'Number' => '82',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Удалено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+11:44:35 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="82" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="82" Address="ул. Иванова 34-40 " DeliveryRecipientCost="890.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="137" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="135.76">
+    <Package Number="1" BarCode="101" Weight="2000">
+      <Item WareKey="demo_2_1__1" Cost="50" Payment="0" Weight="2000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-05-07 00:00:00" TimeBeg="00:05:00" TimeEnd="23:59:00"/>
+    </Schedule>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+11:44:59 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113526',
+          'Number' => '82',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+11:45:00 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+11:45:00 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T08:45:00+00:00',
+    ),
+  ),
+)
+11:45:07 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+11:45:07 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T08:45:07+00:00',
+    ),
+  ),
+)
+11:49:44 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+11:49:44 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T08:49:44+00:00',
+    ),
+  ),
+)
+12:59:25 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="83" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="83" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+12:59:47 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113528',
+          'Number' => '83',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+13:03:44 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="84" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="84" Address="ул. Иванова 34-40 " DeliveryRecipientCost="890.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="137" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="135.76">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+13:03:44 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERR_INVALID_TARIFF_WITH_WEIGHT_MORE_30',
+          'Msg' => 'Для выбранного тарифа вес должен быть меньше 30кг',
+          'Number' => '84',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+13:05:04 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+13:05:04 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:08:38 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="83" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+13:08:38 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T10:08:38+00:00',
+    ),
+  ),
+)
+13:08:45 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+13:08:45 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T10:08:45+00:00',
+    ),
+  ),
+)
+13:08:54 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-27" Account="d7e231af145bad1e217133773d07b35d" Secure="f4e81b9a55feb72de8f6750b1f45859b" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-27" DateLast="2018-04-28">
+  <Order Number="78" Date="2018-04-27"/>
+</StatusReport>
+',
+)
+13:08:54 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '78',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=78',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:17:33 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+13:17:35 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:24:14 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+13:24:14 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:45:00 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+13:45:00 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T10:45:00+00:00',
+    ),
+  ),
+)
+13:56:03 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="85" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="85" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+13:56:58 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113530',
+          'Number' => '85',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+14:00:39 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:00:39 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:00:39+00:00',
+    ),
+  ),
+)
+14:00:54 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:00:54 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:00:57 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:00:57 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:01:20 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:01:20 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:01:20+00:00',
+    ),
+  ),
+)
+14:01:59 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="83" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:01:59 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:01:59+00:00',
+    ),
+  ),
+)
+14:02:29 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:02:29 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:02:31 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:02:31 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:02:31+00:00',
+    ),
+  ),
+)
+14:02:39 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:02:39 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:02:39+00:00',
+    ),
+  ),
+)
+14:02:55 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="85" Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" OrderCount="1">
+  <Order Number="85" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1000000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1000000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:03:11 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:03:11 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:03:17 28-04-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_VALIDATE_IM_DEP_NUMBER_HAS_ALREADY_HAD',
+          'Msg' => 'Номер отправления ИМ должен быть уникальным у одного Контрагента',
+          'Number' => '85',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+14:03:18 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:03:18 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:03:18+00:00',
+    ),
+  ),
+)
+14:03:43 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:03:43 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:03:43+00:00',
+    ),
+  ),
+)
+14:05:17 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:05:17 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-04-28T11:05:17+00:00',
+    ),
+  ),
+)
+14:17:44 28-04-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-04-28">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:17:44 28-04-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+22:32:21 02-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-02">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+22:32:21 02-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-02T19:32:21+00:00',
+    ),
+  ),
+)
+22:32:34 02-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-02">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+22:32:34 02-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:17:36 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="86" Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" OrderCount="1">
+  <Order Number="86" Address="bolotnaya ulitsa " DeliveryRecipientCost="300.000000" SendCityPostCode="432011" RecCityPostCode="115035" RecipientName="test t" Phone="+79000000001" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="MSK2" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="45.76">
+    <Package Number="1" BarCode="101" Weight="3000">
+      <Item WareKey="demo_6__1" Cost="50" Payment="50" Weight="3000" Amount="2" Comment="Printed Summer Dress" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="MSK2"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+10:18:32 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="86" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+10:18:32 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '86',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=86',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:18:36 03-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113579',
+          'Number' => '86',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+10:19:16 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:19:16 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:19:22 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+10:19:22 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-03T07:19:22+00:00',
+    ),
+  ),
+)
+10:19:37 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="86" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+10:19:37 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-03T07:19:37+00:00',
+    ),
+  ),
+)
+14:01:10 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:01:10 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:03:37 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:03:37 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:03:50 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:03:50 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:04:01 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="86" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+14:04:01 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-03T11:04:01+00:00',
+    ),
+  ),
+)
+14:04:07 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="85" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:04:07 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-03T11:04:07+00:00',
+    ),
+  ),
+)
+14:04:16 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="83" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:04:16 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-03T11:04:16+00:00',
+    ),
+  ),
+)
+14:04:24 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="82" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:04:24 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-03T11:04:24+00:00',
+    ),
+  ),
+)
+14:04:31 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-28" Account="d7e231af145bad1e217133773d07b35d" Secure="f1a489c36a77da3aadd72b62fb43c179" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-28" DateLast="2018-05-03">
+  <Order Number="84" Date="2018-04-28"/>
+</StatusReport>
+',
+)
+14:04:32 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '84',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=84',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:18:03 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="87" Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" OrderCount="1">
+  <Order Number="87" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1090.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="NSK13" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="166.27">
+    <Package Number="1" BarCode="101" Weight="5">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="5" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-05-08 00:00:00" TimeBeg="14:10:00" TimeEnd="17:59:00"/>
+    </Schedule>
+    <Address PvzCode="NSK13"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:18:05 03-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_INTERNAL',
+          'Msg' => 'Unknown internal error',
+          'Number' => '87',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+14:18:17 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="87" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+14:18:17 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '87',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=87',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:19:00 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="88" Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" OrderCount="1">
+  <Order Number="88" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1090.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="NSK13" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="166.27">
+    <Package Number="1" BarCode="101" Weight="5">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="5" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="NSK13"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:19:00 03-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_INTERNAL',
+          'Msg' => 'Unknown internal error',
+          'Number' => '88',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+14:19:07 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="88" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+14:19:07 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '88',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=88',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:58:14 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="88" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+14:58:14 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '88',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=88',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:58:46 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="88" Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" OrderCount="1">
+  <Order Number="88" Address="ул. Иванова 34-40 " DeliveryRecipientCost="1090.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="NSK13" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="166.27">
+    <Package Number="1" BarCode="101" Weight="1000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="NSK13"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:58:46 03-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_INTERNAL',
+          'Msg' => 'Unknown internal error',
+          'Number' => '88',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+14:58:47 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="88" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+14:58:47 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '88',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=88',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+15:01:27 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="89" Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" OrderCount="1">
+  <Order Number="89" Address="ул. Иванова 34-40 " DeliveryRecipientCost="610.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="93.05">
+    <Package Number="1" BarCode="101" Weight="1">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1" Amount="2" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+15:01:35 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="89" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+15:01:35 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '89',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=89',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+15:01:51 03-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-03" Account="d7e231af145bad1e217133773d07b35d" Secure="b14bd2e13767dfa299ac738b65706b57" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-03" DateLast="2018-05-03">
+  <Order Number="89" Date="2018-05-03"/>
+</StatusReport>
+',
+)
+15:01:51 03-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '89',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=89',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+15:03:00 03-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113585',
+          'Number' => '89',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+08:42:54 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="90" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="90" Address="ул. Иванова 34-40 " DeliveryRecipientCost="920.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB" PvzCode="NSK13" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="140.34">
+    <Package Number="1" BarCode="101" Weight="4">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="4" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address PvzCode="NSK13"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+08:42:55 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_INTERNAL',
+          'Msg' => 'Unknown internal error',
+          'Number' => '90',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+08:43:02 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="90" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:43:02 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '90',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=90',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+08:43:25 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="90" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:43:25 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '90',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=90',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+08:44:59 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="91" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="91" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1000">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1000" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+08:45:53 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113591',
+          'Number' => '91',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+08:46:06 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="91" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:46:06 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T05:46:06+00:00',
+    ),
+  ),
+)
+08:47:02 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="90" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:47:02 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '90',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=90',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+08:55:56 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="92" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="92" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+08:56:52 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079113592',
+          'Number' => '92',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+08:57:06 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="92" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:57:06 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T05:57:06+00:00',
+    ),
+  ),
+)
+08:57:30 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="91" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:57:30 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T05:57:30+00:00',
+    ),
+  ),
+)
+08:57:43 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="91" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="91" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+08:58:04 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_VALIDATE_IM_DEP_NUMBER_HAS_ALREADY_HAD',
+          'Msg' => 'Номер отправления ИМ должен быть уникальным у одного Контрагента',
+          'Number' => '91',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+08:58:05 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="91" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+08:58:05 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T05:58:05+00:00',
+    ),
+  ),
+)
+09:03:43 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="91" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+09:03:43 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T06:03:43+00:00',
+    ),
+  ),
+)
+14:02:50 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="93" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="93" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:04:22 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079114330',
+          'Number' => '93',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+14:04:32 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="93" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+14:04:32 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T11:04:32+00:00',
+    ),
+  ),
+)
+14:05:11 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="91" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+14:05:11 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T11:05:11+00:00',
+    ),
+  ),
+)
+14:07:54 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="94" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="94" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1">
+      <Item WareKey="demo_2__1" Cost="50" Payment="50" Weight="1" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:08:46 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'DispatchNumber' => '1079114611',
+          'Number' => '94',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 1',
+        ),
+      ),
+    ),
+  ),
+)
+14:09:01 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="94" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+14:09:01 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T11:09:01+00:00',
+    ),
+  ),
+)
+14:10:57 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="91" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+14:10:57 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T11:10:57+00:00',
+    ),
+  ),
+)
+14:11:26 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="94" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+14:11:27 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T11:11:27+00:00',
+    ),
+  ),
+)
+14:11:33 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="94" Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" OrderCount="1">
+  <Order Number="94" Address="ул. Иванова 34-40 " DeliveryRecipientCost="710.000000" SendCityPostCode="432011" RecCityPostCode="630099" RecipientName="Тест Тестович" Phone="+78009001020" Comment="" TariffTypeCode="11" RecientCurrency="RUB" ItemsCurrency="RUB" DeliveryRecipientVATRate="VAT18" DeliveryRecipientVATSum="108.31">
+    <Package Number="1" BarCode="101" Weight="1">
+      <Item WareKey="demo_2__1" Cost="50" Payment="0" Weight="1" Amount="1" Comment="Blouse" PaymentVATRate="VAT18" PaymentVATSum="7.63"/>
+    </Package>
+    <Address Street="ул. Иванова 34-40 " House="-" Flat="-"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:11:57 04-05-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'ErrorCode' => 'ERROR_VALIDATE_IM_DEP_NUMBER_HAS_ALREADY_HAD',
+          'Msg' => 'Номер отправления ИМ должен быть уникальным у одного Контрагента',
+          'Number' => '94',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+14:11:58 04-05-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-04" Account="d7e231af145bad1e217133773d07b35d" Secure="acac8700b2f93c018305161343ce81c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-04" DateLast="2018-05-04">
+  <Order Number="94" Date="2018-05-04"/>
+</StatusReport>
+',
+)
+14:11:58 04-05-2018: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'DateFirst' => '2000-12-31T17:00:00+00:00',
+      'DateLast' => '2018-05-04T11:11:58+00:00',
+    ),
+  ),
+)

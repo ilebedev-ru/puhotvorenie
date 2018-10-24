@@ -1,0 +1,2214 @@
+17:17:52 09-06-2017: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2016-06-30" Account="" Secure="961ff9996152fe0e71d12efecbed061c" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2016-06-30" DateLast="2017-06-09">
+  <Order Number="27" Date="2016-06-30"/>
+</StatusReport>
+',
+)
+17:17:53 09-06-2017: array (
+  'StatusReport' => 
+  array (
+    '@value' => '',
+    '@attributes' => 
+    array (
+      'Date' => '2016-06-30',
+      'ErrorCode' => 'ERR_AUTH',
+      'Msg' => 'Интернет-магазин не идентифицирован: Account=, Secure=961ff9996152fe0e71d12efecbed061c',
+    ),
+  ),
+)
+00:29:53 18-03-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-03-18" Account="fd022ed33455ba49af0f6a0df9408e8d" Secure="66ef3d7cf54dbbc7a7216c67aacab55a" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-03-18" DateLast="2018-03-18">
+  <Order Number="139" Date="2018-03-18"/>
+</StatusReport>
+',
+)
+00:29:53 18-03-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '139',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=139',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+15:42:02 18-03-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-03-18" Account="fd022ed33455ba49af0f6a0df9408e8d" Secure="66ef3d7cf54dbbc7a7216c67aacab55a" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-03-18" DateLast="2018-03-18">
+  <Order Number="139" Date="2018-03-18"/>
+</StatusReport>
+',
+)
+15:42:03 18-03-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '139',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=139',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+23:03:45 26-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-02-25" Account="b9236e625fc61249c6927b0a14075ae7" Secure="61a7396e538acd7f8f4c0a2d86abd236" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-02-25" DateLast="2018-06-26">
+  <Order Number="1541" Date="2018-02-25"/>
+</StatusReport>
+',
+)
+23:03:45 26-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1541',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1541',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:46:33 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1568" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+13:46:34 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1568',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1568',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+13:48:20 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1569" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+13:48:20 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1569',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1569',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:24 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1570" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+20:12:25 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1570',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1570',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:34 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-13" Account="b9236e625fc61249c6927b0a14075ae7" Secure="6e9186735d6d9b60bc8b163a233f59e2" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-13" DateLast="2018-06-29">
+  <Order Number="1566" Date="2018-06-13"/>
+</StatusReport>
+',
+)
+20:12:34 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1566',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1566',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:39 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-06" Account="b9236e625fc61249c6927b0a14075ae7" Secure="8fadd68785b32047d055643e462bac5e" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-06" DateLast="2018-06-29">
+  <Order Number="1565" Date="2018-06-06"/>
+</StatusReport>
+',
+)
+20:12:39 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1565',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1565',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:40 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-04" Account="b9236e625fc61249c6927b0a14075ae7" Secure="65403cb606c02d95355ea44fdeacbb0e" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-04" DateLast="2018-06-29">
+  <Order Number="1564" Date="2018-06-04"/>
+</StatusReport>
+',
+)
+20:12:40 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1564',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1564',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:40 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-02" Account="b9236e625fc61249c6927b0a14075ae7" Secure="3992e70a76839111ea7666ba5147b1cd" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-02" DateLast="2018-06-29">
+  <Order Number="1563" Date="2018-06-02"/>
+</StatusReport>
+',
+)
+20:12:40 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1563',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1563',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:41 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-05-16" Account="b9236e625fc61249c6927b0a14075ae7" Secure="d47c18a7e6a86b41807605510a9f3ce7" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-05-16" DateLast="2018-06-29">
+  <Order Number="1562" Date="2018-05-16"/>
+</StatusReport>
+',
+)
+20:12:41 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1562',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1562',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:41 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="4a80b4c92a943b78598c7d326bda9099" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-29" DateLast="2018-06-29">
+  <Order Number="1561" Date="2018-04-29"/>
+</StatusReport>
+',
+)
+20:12:42 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1561',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1561',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:42 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-18" Account="b9236e625fc61249c6927b0a14075ae7" Secure="25c6cd1a5369739435b72bcd8b8e8131" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-18" DateLast="2018-06-29">
+  <Order Number="1560" Date="2018-04-18"/>
+</StatusReport>
+',
+)
+20:12:42 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1560',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1560',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:42 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-16" Account="b9236e625fc61249c6927b0a14075ae7" Secure="491c11a65090411c939d000ad832d769" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-16" DateLast="2018-06-29">
+  <Order Number="1559" Date="2018-04-16"/>
+</StatusReport>
+',
+)
+20:12:43 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1559',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1559',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:43 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-13" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c0d734018f2db3c59ce9ef6987b2f555" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-13" DateLast="2018-06-29">
+  <Order Number="1558" Date="2018-04-13"/>
+</StatusReport>
+',
+)
+20:12:43 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1558',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1558',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:43 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-05" Account="b9236e625fc61249c6927b0a14075ae7" Secure="465e74a177744a6538bf2339df13a219" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-05" DateLast="2018-06-29">
+  <Order Number="1557" Date="2018-04-05"/>
+</StatusReport>
+',
+)
+20:12:44 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1557',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1557',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:44 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-04" Account="b9236e625fc61249c6927b0a14075ae7" Secure="ac1cab5ef508a77fb27ba30ab1704ca8" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-04" DateLast="2018-06-29">
+  <Order Number="1556" Date="2018-04-04"/>
+</StatusReport>
+',
+)
+20:12:44 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1556',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1556',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:12:46 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-04-01" Account="b9236e625fc61249c6927b0a14075ae7" Secure="0709f02d0eb8455128477cf525508a64" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-04-01" DateLast="2018-06-29">
+  <Order Number="1555" Date="2018-04-01"/>
+</StatusReport>
+',
+)
+20:12:46 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1555',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1555',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:13:47 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1571" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+20:13:47 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1571',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1571',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:54:30 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1572" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+20:54:30 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1572',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1572',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:55:32 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1573" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+20:55:32 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1573',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1573',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:57:02 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1574" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+20:57:03 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1574',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1574',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+21:00:30 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1575" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+21:00:30 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1575',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1575',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+21:02:14 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1576" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+21:02:14 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1576',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1576',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+22:34:26 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1577" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+22:34:26 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1577',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1577',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+22:35:28 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1578" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+22:35:28 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1578',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1578',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+23:03:36 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1579" Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" OrderCount="1">
+  <Order Number="1579" DeliveryRecipientCost="170.000000" SendCityPostCode="190000" RecCityPostCode="101000" RecipientName="test  " Phone="3343443" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПНЧД002__1" Cost="4950" Payment="4950" Weight="0" Amount="1" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Address PvzCode="MSK142"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+23:03:36 29-06-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1579',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+23:03:49 29-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-29">
+  <Order Number="1579" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+23:03:49 29-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1579',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1579',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:11:37 30-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-30">
+  <Order Number="1579" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+00:11:38 30-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1579',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1579',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:11:42 30-06-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-06-30">
+  <Order Number="1576" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+00:11:42 30-06-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1576',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1576',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:03:28 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1580" Date="2018-07-01" Account="b9236e625fc61249c6927b0a14075ae7" Secure="0af82e00cb5e3f1090f7078a2dd89ce9" OrderCount="1">
+  <Order Number="1580" DeliveryRecipientCost="170.000000" SendCityPostCode="190000" RecCityPostCode="101000" RecipientName="test  " Phone="12123312" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПНЧД002__1" Cost="4950" Payment="4950" Weight="0" Amount="1" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Address PvzCode=""/>
+  </Order>
+</DeliveryRequest>
+',
+)
+00:03:28 01-07-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1580',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1580',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: PVZCODE',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+00:03:35 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-01" Account="b9236e625fc61249c6927b0a14075ae7" Secure="0af82e00cb5e3f1090f7078a2dd89ce9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-01" DateLast="2018-07-01">
+  <Order Number="1580" Date="2018-07-01"/>
+</StatusReport>
+',
+)
+00:03:35 01-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1580',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1580',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:04:18 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-01" Account="b9236e625fc61249c6927b0a14075ae7" Secure="0af82e00cb5e3f1090f7078a2dd89ce9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-01" DateLast="2018-07-01">
+  <Order Number="1580" Date="2018-07-01"/>
+</StatusReport>
+',
+)
+00:04:18 01-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1580',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1580',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:04:22 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-07-01">
+  <Order Number="1578" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+00:04:22 01-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1578',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1578',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:04:26 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-07-01">
+  <Order Number="1579" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+00:04:26 01-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1579',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1579',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:04:31 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-06-29" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2b03e56333d05d000dd803a4a1d167c9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-06-29" DateLast="2018-07-01">
+  <Order Number="1572" Date="2018-06-29"/>
+</StatusReport>
+',
+)
+00:04:31 01-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1572',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1572',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:05:46 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1581" Date="2018-07-01" Account="b9236e625fc61249c6927b0a14075ae7" Secure="0af82e00cb5e3f1090f7078a2dd89ce9" OrderCount="1">
+  <Order Number="1581" DeliveryRecipientCost="350.000000" SendCityPostCode="190000" RecCityPostCode="390000" RecipientName="tester  " Phone="11111111" Comment="" TariffTypeCode="137" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПХ005__1" Cost="2400" Payment="2400" Weight="0" Amount="1" Comment="Палантин-хамелеон &quot;терракотовый&quot;"/>
+    </Package>
+    <Address Street="  " House="" Flat=""/>
+  </Order>
+</DeliveryRequest>
+',
+)
+00:05:46 01-07-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1581',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1581',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: ADDRESS',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+00:05:49 01-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-01" Account="b9236e625fc61249c6927b0a14075ae7" Secure="0af82e00cb5e3f1090f7078a2dd89ce9" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-01" DateLast="2018-07-01">
+  <Order Number="1581" Date="2018-07-01"/>
+</StatusReport>
+',
+)
+00:05:49 01-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1581',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1581',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+16:36:01 24-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-24" Account="b9236e625fc61249c6927b0a14075ae7" Secure="68dcc0828905ca1ab53f5b81f34a2c98" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-24" DateLast="2018-07-24">
+  <Order Number="1585" Date="2018-07-24"/>
+</StatusReport>
+',
+)
+16:36:01 24-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1585',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1585',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+23:07:15 24-07-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-24" Account="b9236e625fc61249c6927b0a14075ae7" Secure="68dcc0828905ca1ab53f5b81f34a2c98" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-24" DateLast="2018-07-24">
+  <Order Number="1585" Date="2018-07-24"/>
+</StatusReport>
+',
+)
+23:07:16 24-07-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1585',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1585',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:42:34 02-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-23" Account="b9236e625fc61249c6927b0a14075ae7" Secure="6723435e98b78869161c867f453b6e77" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-23" DateLast="2018-08-02">
+  <Order Number="1584" Date="2018-07-23"/>
+</StatusReport>
+',
+)
+10:42:34 02-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1584',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1584',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+10:43:04 02-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-19" Account="b9236e625fc61249c6927b0a14075ae7" Secure="3749b9359dc2f93552110496dcede99a" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-19" DateLast="2018-08-02">
+  <Order Number="1582" Date="2018-07-19"/>
+</StatusReport>
+',
+)
+10:43:04 02-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1582',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1582',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+16:02:15 02-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-07-19" Account="b9236e625fc61249c6927b0a14075ae7" Secure="3749b9359dc2f93552110496dcede99a" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-07-19" DateLast="2018-08-02">
+  <Order Number="1582" Date="2018-07-19"/>
+</StatusReport>
+',
+)
+16:02:15 02-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1582',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1582',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+18:39:01 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1586" Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" OrderCount="1">
+  <Order Number="1586" DeliveryRecipientCost="380.000000" SendCityPostCode="190000" RecCityPostCode="416323" RecipientName="test  " Phone="3213123" Comment="" TariffTypeCode="137" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="КСН004__1" Cost="3154" Payment="3154" Weight="0" Amount="1" Comment="Косынка темно-зеленая"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-08-18 00:00:00" TimeBeg="0:00:00" TimeEnd="23:00:00"/>
+    </Schedule>
+    <Address Street="test" House="test" Flat="test"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+18:39:02 12-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1586',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1586',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: ADDRESS',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+20:13:11 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1587" Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" OrderCount="1">
+  <Order Number="1587" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="390000" RecipientName="test  " Phone="3213123" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПХ005__1" Cost="2400" Payment="2400" Weight="0" Amount="1" Comment="Палантин-хамелеон &quot;терракотовый&quot;"/>
+    </Package>
+    <Address PvzCode="RZN4"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+20:13:12 12-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1587',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+20:13:26 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-12" DateLast="2018-08-12">
+  <Order Number="1587" Date="2018-08-12"/>
+</StatusReport>
+',
+)
+20:13:27 12-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1587',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1587',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:14:07 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-12" DateLast="2018-08-12">
+  <Order Number="1586" Date="2018-08-12"/>
+</StatusReport>
+',
+)
+20:14:07 12-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1586',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1586',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:14:35 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-12" DateLast="2018-08-12">
+  <Order Number="1587" Date="2018-08-12"/>
+</StatusReport>
+',
+)
+20:14:35 12-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1587',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1587',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:17:21 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1588" Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" OrderCount="1">
+  <Order Number="1588" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="334095" RecipientName="test  " Phone="21331223" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПНЧД002__1" Cost="4950" Payment="4950" Weight="0" Amount="1" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-08-17 00:00:00" TimeBeg="0:00:00" TimeEnd="23:00:00"/>
+    </Schedule>
+    <Address PvzCode="RND21"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+20:17:22 12-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1588',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1588',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: PVZCODE',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+20:17:34 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-12" DateLast="2018-08-12">
+  <Order Number="1588" Date="2018-08-12"/>
+</StatusReport>
+',
+)
+20:17:34 12-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1588',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1588',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:23:16 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1589" Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" OrderCount="1">
+  <Order Number="1589" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="334095" RecipientName="test  " Phone="21331223" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="КСН004__1" Cost="3154" Payment="3154" Weight="0" Amount="1" Comment="Косынка темно-зеленая"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-08-19 00:00:00" TimeBeg="0:00:00" TimeEnd="23:00:00"/>
+    </Schedule>
+    <Address PvzCode="RND8"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+20:23:16 12-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1589',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1589',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: PVZCODE',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+20:23:26 12-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-12" Account="b9236e625fc61249c6927b0a14075ae7" Secure="bcde18968c5c5e9e41b33ce217df38fb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-12" DateLast="2018-08-12">
+  <Order Number="1589" Date="2018-08-12"/>
+</StatusReport>
+',
+)
+20:23:27 12-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1589',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1589',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+00:34:03 13-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1590" Date="2018-08-13" Account="b9236e625fc61249c6927b0a14075ae7" Secure="6fa665feb48a753e7db18753177a3eeb" OrderCount="1">
+  <Order Number="1590" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="334095" RecipientName="test  " Phone="21331223" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="КСН004__1" Cost="3154" Payment="3154" Weight="0" Amount="1" Comment="Косынка темно-зеленая"/>
+      <Item WareKey="ПХ005__2" Cost="2400" Payment="2400" Weight="0" Amount="1" Comment="Палантин-хамелеон &quot;терракотовый&quot;"/>
+      <Item WareKey="ПНЧД002__3" Cost="4950" Payment="4950" Weight="0" Amount="1" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-08-16 00:00:00" TimeBeg="0:00:00" TimeEnd="23:00:00"/>
+    </Schedule>
+    <Address PvzCode="RND14"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+00:34:03 13-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1590',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1590',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: PVZCODE',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+00:36:12 13-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-13" Account="b9236e625fc61249c6927b0a14075ae7" Secure="6fa665feb48a753e7db18753177a3eeb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-13" DateLast="2018-08-13">
+  <Order Number="1590" Date="2018-08-13"/>
+</StatusReport>
+',
+)
+00:36:13 13-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1590',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1590',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+16:21:17 13-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1591" Date="2018-08-13" Account="b9236e625fc61249c6927b0a14075ae7" Secure="6fa665feb48a753e7db18753177a3eeb" OrderCount="1">
+  <Order Number="1591" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="190000" RecipientName="Гайкина Мария Александровна  " Phone="+79817365548" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПБ003__1" Cost="1850" Payment="1850" Weight="0" Amount="1" Comment="Палантин белый &quot;шарм&quot;"/>
+    </Package>
+    <Address PvzCode="SPB54"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+16:21:19 13-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1591',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+16:33:12 13-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-13" Account="b9236e625fc61249c6927b0a14075ae7" Secure="6fa665feb48a753e7db18753177a3eeb" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-13" DateLast="2018-08-13">
+  <Order Number="1591" Date="2018-08-13"/>
+</StatusReport>
+',
+)
+16:33:12 13-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1591',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1591',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+12:25:42 14-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1592" Date="2018-08-14" Account="b9236e625fc61249c6927b0a14075ae7" Secure="7ed65e57ec081003a6387f2d44d7e304" OrderCount="1">
+  <Order Number="1592" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="620000" RecipientName="оолллоо  " Phone="123123123" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПЛГЖН001__1" Cost="4080" Payment="4080" Weight="0" Amount="2" Comment="Платок-гжель &quot;осень&quot;"/>
+      <Item WareKey="ПНЧД002__2" Cost="4950" Payment="4950" Weight="0" Amount="2" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-08-20 00:00:00" TimeBeg="6:00:00" TimeEnd="15:00:00"/>
+    </Schedule>
+    <Address PvzCode="EKB7"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+12:25:42 14-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1592',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1592',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: PVZCODE',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+20:22:35 22-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1593" Date="2018-08-22" Account="b9236e625fc61249c6927b0a14075ae7" Secure="fec067e2feae23842293330d8c745832" OrderCount="1">
+  <Order Number="1593" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="101000" RecipientName="test  " Phone="123123123" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПЛАЖ003__1" Cost="3700" Payment="3700" Weight="0" Amount="1" Comment="Платок ажурный &quot;зеленый гранат&quot;"/>
+    </Package>
+    <Address PvzCode="MSK55"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+20:22:35 22-08-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1593',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+20:22:45 22-08-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-08-22" Account="b9236e625fc61249c6927b0a14075ae7" Secure="fec067e2feae23842293330d8c745832" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-08-22" DateLast="2018-08-22">
+  <Order Number="1593" Date="2018-08-22"/>
+</StatusReport>
+',
+)
+20:22:45 22-08-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1593',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1593',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+14:01:10 16-09-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1595" Date="2018-09-16" Account="b9236e625fc61249c6927b0a14075ae7" Secure="51a109eb7cb4e3a25f69819507e3f9bb" OrderCount="1">
+  <Order Number="1595" DeliveryRecipientCost="900.000000" SendCityPostCode="190000" RecCityPostCode="690000" RecipientName="Алдошина Александра - Тест  " Phone="+79146864192" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="КГР010__1" Cost="4464" Payment="4464" Weight="0" Amount="1" Comment="Кардиган &quot;капучино&quot;"/>
+      <Item WareKey="ПБ003__2" Cost="1850" Payment="1850" Weight="0" Amount="2" Comment="Палантин белый &quot;шарм&quot;"/>
+    </Package>
+    <Address PvzCode="VLK11"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+14:01:11 16-09-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1595',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+13:46:31 17-09-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-09-17" Account="b9236e625fc61249c6927b0a14075ae7" Secure="e4a3eeaf59ccddb8abacf479d26bdb95" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-09-17" DateLast="2018-09-17">
+  <Order Number="1596" Date="2018-09-17"/>
+</StatusReport>
+',
+)
+13:46:31 17-09-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1596',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1596',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+15:27:21 19-09-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1600" Date="2018-09-19" Account="b9236e625fc61249c6927b0a14075ae7" Secure="7bcfd4713c731e68cb277ef03e773e57" OrderCount="1">
+  <Order Number="1600" DeliveryRecipientCost="900.000000" SendCityPostCode="190000" RecCityPostCode="690000" RecipientName="Алдошина Александра - Тест  " Phone="79146864192" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПНЧД002__1" Cost="4950" Payment="4950" Weight="0" Amount="2" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Address PvzCode="VLK11"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+15:27:22 19-09-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1600',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+10:24:49 08-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-08">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+10:24:50 08-10-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1603',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1603',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+11:03:16 09-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-09">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+11:04:07 09-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-09">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+11:06:11 09-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-09">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+11:13:25 09-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-09">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+15:59:51 10-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1604" Date="2018-10-10" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2889d107e4747810e84ee6109443dead" OrderCount="1">
+  <Order Number="1604" DeliveryRecipientCost="0.000000" SendCityPostCode="190000" RecCityPostCode="350000" RecipientName="Тест  " Phone="+79999999999" Comment="" TariffTypeCode="136" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПНЧД002__1" Cost="5500" Payment="5500" Weight="0" Amount="1" Comment="Пончо &quot;сирень&quot; с воротником"/>
+    </Package>
+    <Address PvzCode="KSD23"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+15:59:52 10-10-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1604',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)
+21:19:14 11-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-11" Account="b9236e625fc61249c6927b0a14075ae7" Secure="e5be16743ae10ef3b8baad827934e06e" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-11" DateLast="2018-10-11">
+  <Order Number="1605" Date="2018-10-11"/>
+</StatusReport>
+',
+)
+21:19:14 11-10-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1605',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1605',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+15:42:35 12-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-12">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+15:42:35 12-10-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1603',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1603',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+16:23:32 12-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-11" Account="b9236e625fc61249c6927b0a14075ae7" Secure="e5be16743ae10ef3b8baad827934e06e" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-11" DateLast="2018-10-12">
+  <Order Number="1605" Date="2018-10-11"/>
+</StatusReport>
+',
+)
+16:23:32 12-10-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1605',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1605',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+20:59:36 12-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-07" Account="b9236e625fc61249c6927b0a14075ae7" Secure="c79fd6705b467f4d12489574d57d16c1" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-07" DateLast="2018-10-12">
+  <Order Number="1603" Date="2018-10-07"/>
+</StatusReport>
+',
+)
+20:59:36 12-10-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1603',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1603',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+21:00:09 12-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport Date="2018-10-11" Account="b9236e625fc61249c6927b0a14075ae7" Secure="e5be16743ae10ef3b8baad827934e06e" ShowHistory="1" ShowReturnOrder="1" ShowReturnOrderHistory="1" DateFirst="2018-10-11" DateLast="2018-10-12">
+  <Order Number="1605" Date="2018-10-11"/>
+</StatusReport>
+',
+)
+21:00:09 12-10-2018: array (
+  'StatusReport' => 
+  array (
+    'Order' => 
+    array (
+      '@value' => '',
+      '@attributes' => 
+      array (
+        'Number' => '1605',
+        'ErrorCode' => 'ERR_ORDER_NOTFIND',
+        'Msg' => 'Заказ не найден в базе СДЭК: Number=1605',
+      ),
+    ),
+    '@attributes' => 
+    array (
+      'ErrorCode' => 'ERR_ORDERS_NOT_FOUND',
+      'Msg' => 'По указанным параметрам заказов не найдено',
+    ),
+  ),
+)
+18:43:20 14-10-2018: array (
+  'xml_request' => '<?xml version="1.0" encoding="UTF-8"?>
+<DeliveryRequest Number="1606" Date="2018-10-14" Account="b9236e625fc61249c6927b0a14075ae7" Secure="2f245103451e393f32187254b62693a5" OrderCount="1">
+  <Order Number="1606" DeliveryRecipientCost="380.000000" SendCityPostCode="190000" RecCityPostCode="" RecipientName="Лазарева Анна Сергеевна  " Phone="+79186548341" Comment="" TariffTypeCode="137" RecientCurrency="RUB" ItemsCurrency="RUB">
+    <Package Number="1" BarCode="101" Weight="0">
+      <Item WareKey="ПБ005__1" Cost="2250" Payment="2250" Weight="0" Amount="1" Comment="Палантин белый &quot;ракушки&quot;"/>
+    </Package>
+    <Schedule>
+      <Attempt ID="1" Date="2018-10-17 00:00:00" TimeBeg="20:00:00" TimeEnd="23:00:00"/>
+    </Schedule>
+    <Address Street="Домбайская" House="12" Flat="283"/>
+  </Order>
+</DeliveryRequest>
+',
+)
+18:43:21 14-10-2018: array (
+  'response' => 
+  array (
+    'Order' => 
+    array (
+      0 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1606',
+          'ErrorCode' => 'ERR_NOT_FOUND_RECCITY',
+          'Msg' => 'Отсутствуют параметры для идентификации города получателя: RecCityCode, RecCityPostCode',
+        ),
+      ),
+      1 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1606',
+          'ErrorCode' => 'ERR_INVALID_WEIGHT',
+          'Msg' => 'Значение веса должно быть положительным: Weight= 0',
+        ),
+      ),
+      2 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Number' => '1606',
+          'ErrorCode' => 'ERR_NEED_ATTRIBUTE',
+          'Msg' => 'Отсутствие обязательного атрибута: ADDRESS',
+        ),
+      ),
+      3 => 
+      array (
+        '@value' => '',
+        '@attributes' => 
+        array (
+          'Msg' => 'Добавлено заказов 0',
+        ),
+      ),
+    ),
+  ),
+)

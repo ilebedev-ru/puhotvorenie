@@ -1,0 +1,21 @@
+.news .item{
+	clear:both;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.news .item .img{
+	float:left;
+	margin: 0px 10px 10px 0;
+}
+.news .item .hd{
+	font-size:16px;
+}
+.news .ttl{
+	display:block;
+	margin-bottom:10px;
+	font-size:18px;
+}
+
+.news-entry {
+	margin-bottom:20px;
+}

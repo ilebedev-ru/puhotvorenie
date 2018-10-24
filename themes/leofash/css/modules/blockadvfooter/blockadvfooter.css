@@ -1,0 +1,79 @@
+/* advfooter */
+
+.footer .container {
+}
+.footer .container > .row { 
+}
+	#advandfooter {  
+		border-top: 1px solid #EDEDED;
+		padding: 20px 0; 
+	}
+	.adv-footer-wrap .blocks-wrap {
+    overflow: hidden;
+	}
+	/*block 1*/
+	#lofadva-pos-1 .blocks-wrap {
+	}
+	
+	#lofadva-pos-1 .block-wrap {
+		background: #ECECEC;
+		min-height: 320px;
+		padding: 20px 20px 5px;
+	}
+	#lofadva-pos-1 .block:first-child .block-wrap:first-child {
+		background: url("images/border-shadow.png") no-repeat scroll right center #ECECEC;
+	}
+		#lofadva-pos-1 .blocks-wrap  .block:last-child { margin-left: 2.5%}
+		#lofadva-pos-1.widget-items li {
+			margin-bottom: 0;
+		}
+		#lofadva-pos-1 .blocks-wrap  .block:last-child
+		.aboutus p{
+			color: #757575;
+			line-height: 1.5;
+		}
+		.aboutus p a{display: block; margin: 10px 0;}
+
+		.contactus ul{ margin-bottom: -15px;}
+		.contactus ul li{background: url(images/icon_contact.png) no-repeat 0 0;
+			 border-bottom: 1px solid #ccc;
+			list-style: none;
+			padding-bottom: 15px;
+			padding-left: 40px;
+			padding-top: 15px;
+		}
+		.contactus ul li.fax{background-position:0 -46px;}
+		.contactus ul li.phone{background-position: 0 0;padding-top: 0;}
+		.contactus ul li.mail{background-position: 0 -100px;}
+		.contactus ul li.support{background-position: 0 -156px;border-bottom: none;}
+
+		.aboutus a,
+		.contactus a{color: #1b9fe2;text-decoration: none;}
+		
+	/* block 2*/
+		#lofadva-pos-2 .blocks-wrap {
+		}
+		#lofadva-pos-2 .block-wrap {
+		}
+		#lofadva-pos-2 .block:first-child  .block-wrap{
+			border-left-color: transparent;
+			box-shadow: none;
+		}
+		.box-services p{padding:0;}
+		.box-services .iconbox{width: 35px; height: 35px; border: 2px solid #000; font-size: 18px;
+		text-align: center; line-height: 33px; margin: 10px;border-radius: 50px; position: relative; 
+		}
+		.box-services .iconbox:hover:before{
+			width: 43px;
+			height: 43px;
+			position: absolute;
+			content: "";
+			border: 1px solid #aaa;
+			left: -6px;
+			border-radius: 30px;
+			top: -6px; 
+		}
+		.box-services .media-body{padding-top: 20px;}
+		.box-services .media-body strong{
+    letter-spacing: 3px;
+}

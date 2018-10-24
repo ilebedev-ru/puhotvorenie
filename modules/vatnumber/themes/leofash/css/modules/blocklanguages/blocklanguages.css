@@ -1,0 +1,6 @@
+/* block top languages */
+#languages_block_top .dropdown-menu {
+    
+}
+#languages_block_top .dropdown-menu { margin-top: 0;}
+#languages_block_top .dropdown-menu li a { border-bottom: 0; padding: 5px 0;} 

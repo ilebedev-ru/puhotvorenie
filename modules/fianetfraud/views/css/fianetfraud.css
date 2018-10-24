@@ -1,0 +1,45 @@
+.process-icon-cert1 {
+  background-image: url('../img/certissim-wait.png');
+  background-repeat: no-repeat;
+}
+.process-icon-cert2 {
+  background-image: url('../img/certissim-reeval.png');
+  background-repeat: no-repeat;
+}
+
+
+div#header_certissim {
+  width: 100%;
+}
+div#header_certissim div.certissim_control {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+div#header_certissim div.certissim_control img {
+  margin: auto 8px;
+}
+
+/*css admin.css*/
+#fianetfraud_admin_content .fianetfraudconf, #fianetfraud_admin_content .warn, #fianetfraud_admin_content .fianetfrauderror {
+	color:#383838;
+	font-weight:700;
+	margin: 0 0 10px 0;
+	line-height: 20px;
+	padding: 10px 15px;
+}
+
+
+#fianetfraud_admin_content .fianetfraudconf {
+	border: 1px solid #72CB67;
+	background-color: #DFFAD3;
+}
+#fianetfraud_admin_content .fianetfraudconf img, #fianetfraud_admin_content .warn img, #fianetfraud_admin_content .fianetfrauderror img {
+	margin:-4px 5px 0 0;
+}
+
+
+#fianetfraud_admin_content .fianetfrauderror  {
+	border: 1px solid #EC9B9B;
+	background-color: #FAE2E3;
+}

@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{pwblockhtml}prestashop>pwblockhtml_dfd5b91459f2564a81fb04111a616a85'] = 'HTML Block';
+$_MODULE['<{pwblockhtml}prestashop>pwblockhtml_f7ec816165baaf7d75a3d050b11ff949'] = 'This module allows to place a HTML code with a binding to hooks.';
+$_MODULE['<{pwblockhtml}prestashop>adminpwblockhtmlcontroller_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{pwblockhtml}prestashop>adminpwblockhtmlcontroller_29d6fd98ff6a7ffbed34e26d5008ecd9'] = 'Order';
+$_MODULE['<{pwblockhtml}prestashop>adminpwblockhtmlcontroller_602680ed8916dcc039882172ef089256'] = 'Name';
+$_MODULE['<{pwblockhtml}prestashop>adminpwblockhtmlcontroller_e5991527fbf63036ce860596bb9548c8'] = 'Hooks';
+$_MODULE['<{pwblockhtml}prestashop>adminpwblockhtmlcontroller_7203f7a4ff564cb876e8db54c903dbfc'] = 'Active';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_54a59b19f9945c7a147b563b0d61c5ad'] = 'Saved';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_95cc7a8c13d8b61719d546cc1efcf7f1'] = 'Instructions';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_bd6ac675fe4aa64315587f452d34ea76'] = 'This block with a HTML code will be attached to all hooks which you specify in the field \"Hooks\".';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_4c74f4c5a8b0351b8c7742cc85c4c950'] = 'You can edit a module arrangement inside the hook on';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_9481a6f8656578bacaa93dc6baa94e57'] = 'this page.';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_5c193cdefd849b0d993da5bf3039ae9a'] = 'In the field \"Hooks\" you can specify nonexistent Hook, it will be created.';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_93638a406e3f6723810ae8a1ef6c7aed'] = 'To display on the page the created Hook it is necessary to add Hook call in the file of a template. For example:';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_dfd5b91459f2564a81fb04111a616a85'] = 'HTML Block';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_602680ed8916dcc039882172ef089256'] = 'Name';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_e5991527fbf63036ce860596bb9548c8'] = 'Hooks';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_4c4ad5fca2e7a3f74dbb1ced00381aa4'] = 'HTML';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_36531afcdbc56123fefa3f78164d2ad2'] = 'Choose editor';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_757f4749aebb1891ef5ac2a9b5439cea'] = 'ACE';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_324003a4dfcaf85c9e0824eef031764b'] = 'TinyMCE';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_fc2e00d472773c4dac3187f0552c260e'] = 'Without editor';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_5091879a142df0e5347715d6c23d9a00'] = 'Need CSS';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_e04af96afe53462f72f39331b209a810'] = 'Yes';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_d0cd2248137f1acac2e79777d856305e'] = 'No';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_2c56c360580420d293172f42d85dfbed'] = 'CSS';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_48e60cd948d4521ccc8f58e94c0a09bc'] = 'Need JS';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_5bc06f5800d415cc95e1349edbaca425'] = 'JS';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_29d6fd98ff6a7ffbed34e26d5008ecd9'] = 'Order';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_7203f7a4ff564cb876e8db54c903dbfc'] = 'Active';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_574f7b2e6bd9819c4079bf3a7864ec0e'] = 'On';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_d04c646a9f242b117902116a585fbc47'] = 'Off';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_74ea58b6a801f0dce4e5d34dbca034dc'] = 'Save';
+$_MODULE['<{pwblockhtml}prestashop>add_html_form_987b33c664dce148f1d17f6eb9ab3e79'] = 'Cancel';

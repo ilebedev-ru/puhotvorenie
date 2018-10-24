@@ -1,0 +1,79 @@
+.pwfloatcart {
+    padding: 0 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999999999;
+}
+
+.pwfloatcart .layout {
+    position: relative;
+    width: 100%;
+}
+
+.pwfloatcart .float-cart {
+    text-align: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.pwfloatcart .pwblock {
+    display: table-cell;
+    padding: 10px 0;
+}
+
+.pwfloatcart .block-up {
+    -webkit-box-flex: 5;
+    -ms-flex-positive: 5;
+    flex-grow: 5;
+    text-align: left;
+}
+
+.pwfloatcart .block-up .pw_label {
+    cursor: pointer;
+    border-bottom: 1px dashed;
+}
+
+.pwfloatcart .block-list, .pwfloatcart .block-cart {
+    cursor: pointer;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 570px) {
+    .pwfloatcart .block-up .pw_label, .pwfloatcart .block-list, .pwfloatcart .block-cart {
+        font-size: 0.8em;
+    }
+
+}
+
+.pwfloatcart .block-list .pw_label, .pwfloatcart .block-cart .pw_label {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*.pwfloatcart .block-list, .pwfloatcart .block-cart {*/
+/*min-width:200px;*/
+/*text-align: center;*/
+/*}*/
+
+.fa-shopping-cart {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+    .float-cart > div {
+        display: none;
+    }
+}

@@ -1,0 +1,293 @@
+/**
+  * Social Network connect modules
+  * frsnconnect 0.16 by froZZen
+ */
+ 
+#frsnconnect_form {
+   clear: both;
+}
+
+#frsn_createaccount_errors {
+    margin: 10px 10px 15px;
+}
+
+#frsnconnect_form .form_content {
+    padding: 0px;
+}
+
+#frsnconnect_form p {
+    margin-bottom: 8px;
+}
+
+#frsnconnect_form h4 {
+    color: #333333;
+    font-size: 11px;
+    padding-bottom: 22px;
+}
+
+#frsnconnect_form fieldset {
+    height:auto; 
+}
+.frsnconnect-myaccount {
+    position: relative;    
+}
+
+.frsnconnect-myaccount h3 {
+    color: #000000;
+    font-size: 13px;
+    padding: 0 0 10px;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.frsnconnect-myaccount a.serv_img_link {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 48px;
+    width: 48px;
+}
+.frsnconnect-myaccount label.serv_img_link {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 48px;
+    width: 48px;
+}
+
+#module-frsnconnect-actions #center_column form.std .row .col-xs-4 {
+    max-width: 94px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#module-frsnconnect-actions #center_column form.std .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/************/
+.auth-social{
+    margin-bottom: 10px;
+}
+
+#frsnconnect a {
+    display: inline-block;
+    position: relative;
+    min-width: 135px;
+    height: 48px;
+    padding-left: 52px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 3.69230769;
+    text-transform: uppercase;
+    vertical-align: top;
+    z-index: 1;
+    margin-top: 10px;
+}
+#frsnconnect label {
+    display: block;
+    position: relative;
+    min-width: 125px;
+    height: 48px;
+    padding-left: 48px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 3.69230769;
+    text-transform: uppercase;
+    vertical-align: top;
+    z-index: 1;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #383838;
+    padding-right: 10px;
+    float: left;
+    margin-left: 10px;
+}
+#frsnconnect i {
+    position: absolute;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 11px;
+    margin-left: -30px;
+}
+#frsnconnect label.auth-vk {
+    background-color: #5b83ab;
+}
+#frsnconnect label.auth-ok {
+    background-color: #f2720c;
+}
+#frsnconnect label.auth-ld {
+    background-color: #0077B5;
+}
+#frsnconnect label.auth-ya{
+    background-color: #E61400;
+}
+#frsnconnect label.auth-mr{
+    background-color: #168DE2;
+}
+
+#frsnconnect label.auth-fb {
+    background-color: #3b5d9a;
+    margin-left: 10px;
+}
+#frsnconnect label.auth-tw {
+    background-color: #32cbfe;
+    margin-left: 10px;
+}
+#frsnconnect label.auth-gl {
+    background-color: #dd4b39;
+    margin-left: 10px;
+}
+
+#frsnconnect label:hover,
+#frsnconnect label:focus {
+    text-decoration: none;
+}
+#frsnconnect label:hover,
+#frsnconnect label:focus {
+    text-decoration: none;
+}
+
+#frsnconnect label:hover:before,
+#frsnconnect label:focus:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#frsnconnect label:hover:before,
+#frsnconnect label:focus:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#frsnconnect input{
+    display: none;
+    position: absolute;
+    left: -200px;
+    top: -200px;
+    visibility: hidden;
+    max-width: 0px;
+    max-height: 0px;
+}
+
+.auth-social-tip {
+    color: #999;
+    font-size: 13px;
+    line-height: 1.23076923;
+}
+
+.amp-social {
+    margin-top: 50px;
+}
+
+.amp-social-tip {
+    margin-bottom: 20px;
+    color: #999;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 1.15384615;
+}
+
+.amp-social-btn {
+    display: inline-block;
+    position: relative;
+    min-width: 140px;
+    max-width: 150px;
+    padding: 11px 11px 11px 36px;
+    color: #fff;
+    vertical-align: top;
+    z-index: 1;
+}
+
+.amp-social-btn:hover,
+.amp-social-btn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.amp-social-btn:hover:before,
+.amp-social-btn:focus:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .1);
+    z-index: -1;
+}
+
+.social-vk {
+    background-color: #5b83ab;
+    float: left;
+}
+
+.social-fb {
+    background-color: #3b5d9a;
+    margin-left: 6px;
+}
+
+.social-disconnect {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.amp-social-btn span,
+.amp-social-btn small {
+    display: block;
+}
+
+.amp-social-btn span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42857143;
+    text-transform: uppercase;
+}
+
+.amp-social-btn small {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.icon-social-vk {
+    background-image: url(./images/social_vk.png);
+    margin-top: -6px;
+    left: 6px;
+    top: 50%;
+}
+
+.icon-social-fb {
+    background-image: url(./images/social_fb.png);
+    left: 12px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.icon-social-tw {
+    background-image: url(./images/social_tw.png);
+    width: 11px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.icon-social-gl {
+    background-image: url(./images/social_gl.png);
+    width: 11px;
+    height: 30px !important;
+    top: 50%;
+    margin-top: -10px;
+}

@@ -1,0 +1,39 @@
+/* Block editorial */
+.editorial_block {
+    padding: 2em 0;
+}
+
+.editorial_block .rte {
+    background: transparent none repeat scroll 0 0
+}
+
+.editorial_block h1 {
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.editorial_block h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 15px;
+    padding-bottom: 0px;
+}
+
+.editorial_block p {
+    padding-top: 0.4em
+}
+
+#editorial_block_center p {
+    padding-left: 0
+}
+
+#editorial_image_legend {
+    color: #AAAAAA;
+    font-size: 6pt;
+    font-style: italic;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+

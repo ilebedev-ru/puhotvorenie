@@ -1,0 +1,75 @@
+#sitemap_content,
+#listpage_content {
+    font-size: 13px;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#sitemap_content {
+    border-bottom: 1px solid gray;
+}
+
+#sitemap_content a,
+#listpage_content a {
+    text-decoration: underline;
+}
+
+#sitemap_content a:hover,
+#listpage_content a:hover {
+    color: #be40df;
+    text-decoration: none;
+}
+
+#sitemap_content .sitemap_block h3,
+#listpage_content .categTree h3 {
+    margin: 10px 0
+}
+
+#sitemap_content div.sitemap_block {
+    min-height: 120px;
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sitemap_content div.sitemap_block ul {
+    list-style-type: none
+}
+
+#sitemap_content div.sitemap_block li a {
+    display: block;
+    padding: 2px 0 2px 10px;
+    background: url(../img/arrow_right_2.png) no-repeat 0 7px transparent
+}
+
+#listpage_content div.categTree {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#listpage_content div.tree_top {
+    padding: 3px 0 5px 24px;
+    background: url(../img/sitemap-top.gif) no-repeat -1px -3px transparent
+}
+
+#listpage_content ul {
+    list-style-type: none
+}
+
+#listpage_content ul.tree li {
+    margin-left: 11px;
+    padding-left: 20px;
+    border-left: 1px dotted #999;
+    background: url(../img/sitemap-horizontal.png) no-repeat left 10px transparent
+}
+
+#listpage_content ul.tree li:last-child,
+#listpage_content ul.tree li.last {
+    border: medium none;
+    background: url(../img/sitemap-last.gif) no-repeat -12px -2px transparent
+}
+@media screen and (max-width: 570px) {
+    #sitemap_content, #listpage_content{
+        padding: 10px;
+    }
+}

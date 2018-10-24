@@ -1,0 +1,107 @@
+/*brown-light #896B5A*/
+/*brown #4D423B*/
+a{color: #ddd;}
+a:hover, .lnk a:hover{color:#fff;}
+body{
+	background: #333;
+	color: #ddd;
+}
+input[type="submit"], input[type="button"], input[type="reset"], .btn, button, a.exclusive, span.exclusive, .button, .button_large, .button_small{
+	background-color:#896B5A;
+}
+
+#cavas_menu{border-bottom-color:#896B5A; border-top-color: #4D423B; }
+#leo-mainnav .navbar-default .navbar-nav > li:focus > a, #leo-mainnav .navbar-default .navbar-nav > li:hover > a{
+	border-left-color: #4D423B;
+	border-right-color: #4D423B;
+}
+#leo-mainnav .navbar-default .navbar-nav > li > a{color: #fff;}
+#leo-mainnav .nav .caret{border-top-color: #896B5A;}
+#leo-mainnav .navbar-default .navbar-nav > .active > a, #leo-mainnav .navbar-default .navbar-nav > .active > a:hover, #leo-mainnav .navbar-default .navbar-nav > .active > a:focus{
+	border-left-color:#4D423B;
+	border-right-color:#4D423B;
+}
+
+.buttons_bottom_block a,
+.buttons_bottom_block a:hover{color: #fff;}
+
+.column .highlight .bullet li a.selected, .column .highlight .bullet li a:hover{color: #666;}
+
+.social li:hover{border-color: #fff;}
+.top-wrap{border-top-color:#896B5A; border-bottom-color:#4D423B}
+.top-wrap .dropdown-toggle{border-color:#4D423B}
+.top-wrap a:hover{color: #fff;}
+
+#header_user .links i{background-color:#896B5A}
+#slideshow .carousel-control.left{background-image:url(../img/large_left.png);}
+#slideshow .carousel-control.right{background-image:url(../img/large_right.png);}
+.box-line > div{color: #fff;background-color: #333;}
+.content_sortPagiBar .active,
+.box-line:before{background-color:#896B5A}
+#footer .title_block, #footer .title_block a{color:#fff;}
+.widget-items li:before{color: #fff;}
+.box-services .iconbox{border-color:#fff;color:#fff;}
+
+#contentbottom #newsletter_block_left{
+	background-color:#414141;
+	background-image: url(../img/email.png);
+	border-top-color: #896B5A;
+}
+
+.product-container:hover .product-meta{border-top-color: #4D423B;border-bottom-color:#4D423B;}
+.product-container:hover .quick-view{border-bottom-color:#896B5A;}
+.price{color:#896B5A;}
+.product-container h3 a{color:#fff;}
+
+.leo-wrapper .nav-tabs > li.active > a, .leo-wrapper .nav-tabs > li.active > a:hover, .leo-wrapper .nav-tabs > li.active > a:focus{color: #fff;}
+.copyright,
+#advandfooter{border-top-color: #4D423B;}
+.copyright{border-bottom-color:#896B5A}
+
+.content_sortPagiBar,
+.content_sortPagiBar .fa,
+#productsview span,
+#product_comments_block_extra,
+#quantity_wanted_p,
+.buttons_bottom_block,
+#more_info_sheets,
+.idTabs a:hover, .idTabs .selected,
+.nbs-flexisel-container{border-color:#4D423B}
+.blogs .blog-title,
+.social a{color: #fff;}
+.idTabs a:hover, .idTabs .selected{background-color:#333;}
+#center_column h1{color:#896B5A}
+#view_scroll_left, #view_scroll_right{color:#fff;}
+
+.delivery_options_address h3{background: #999;color: #FFF;
+font-weight: normal;}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus,
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus,
+.warning,
+#module-blockwishlist-mywishlist .wishlisturl,
+.pagination > li > a, .pagination > li > span,
+#module-blockwishlist-mywishlist #mywishlist fieldset,
+#order-detail-content table tr:nth-child(even),
+table.std, table.table_block,
+.panel{background: transparent;}
+.notification.alert-success{background: #333;}
+.notification dl.products{border-bottom: none!important;}
+
+
+th{color: #333;}
+
+.top-wrap a,
+.help-block,
+.column .highlight .bullet li a,
+.blogs .thumbnail .caption,
+#topbar{color: #ddd;}
+ 
+.pagination > li.current > span{color: #FFF;
+background: #896B5A;}
+.top-wrap .caret{border-top-color:#fff;}
+table.std tr.alternate_item, table.table_block tr.alternate_item,
+table#cart_summary tr.cart_item.even,
+#product_comparison tr.comparison_header, #product_comparison td.comparison_feature_even,
+.buttons_bottom_block:hover{background: transparent;}
+body.content_only{background: #333;}

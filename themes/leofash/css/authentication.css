@@ -1,0 +1,25 @@
+#account-creation_form fieldset, fieldset.account_creation {
+	padding:0 0 15px 0;
+	border:1px solid #ccc;
+	background:#f8f8f8;
+}
+
+#center_column #account-creation_form p {margin:0; padding:0 0 10px 0} 
+#account-creation_form p.required  sup {color:red}
+
+
+#account-creation_form span.inline-infos{display:inline-block;}
+
+#account-creation_form p.select select {
+	margin-right:10px;
+	border:1px solid #ccc;
+	font-size: 12px; 
+}
+
+
+#account-creation_form .id_state, #account-creation_form .dni, #account-creation_form .postcode {
+	display: none;
+}
+#center_column #account-creation_form p.cart_navigation {
+	margin:20px 0;
+}

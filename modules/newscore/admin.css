@@ -1,0 +1,55 @@
+div#commentsWrapper div.commentWrapper h4 {
+    margin: 0;
+}
+
+div#commentsWrapper div.commentWrapper {
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid #DFD5C3;
+}
+
+div#commentsWrapper div.commentWrapper.admin > div.commentLeftSide h4  {
+    color: #FF2C00;
+}
+
+div#commentsWrapper div.commentWrapper.guest > div.commentLeftSide h4 {
+    color: #806D40;
+}
+
+div#commentsWrapper div.commentWrapper.registered > div.commentLeftSide h4 {
+    color: #406E80;
+}
+
+div#commentsWrapper div.commentWrapper.admin {
+    background-color: #CCFFCD;
+    border-color: #019609;
+}
+
+div#commentsWrapper div.commentWrapper.registered {
+    background-color: #FFF8E6;
+}
+
+div#commentsWrapper div.commentWrapper.guest {
+    background-color: #FFFFF0;
+}
+
+div#commentsWrapper div.commentWrapper.pending {
+    background-color: #FFEBCC;
+    border-color: #F90;
+}
+
+div#commentsWrapper a.commentReply {
+    display: block;
+}
+
+div#commentsWrapper div.controlPanel {
+    overflow: hidden;
+    margin-top: 1em;
+    padding: 0.4em;
+    background-color: #E2EBEE;
+    border: 1px solid #999;
+}
+
+div#commentsWrapper div.controlPanel form input {
+    float: left;
+}

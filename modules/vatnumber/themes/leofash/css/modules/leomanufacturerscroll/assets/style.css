@@ -1,0 +1,76 @@
+
+.clearout {
+height:20px;
+clear:both;
+}
+#wrap {
+}
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+	position:relative;
+	padding: 10px 50px;
+	border: 1px solid #ededed;
+}
+.nbs-flexisel-ul {
+	position:relative;
+	width:9999px;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;	
+	text-align:center;	
+}
+
+.nbs-flexisel-inner {
+	overflow:hidden;
+	display: block;	
+}
+
+.nbs-flexisel-item {
+	float:left;
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	position:relative;
+	line-height:0px;
+}
+.nbs-flexisel-item img {
+	cursor: pointer;
+	position: relative;
+}
+.nbs-flexisel-item:hover img{opacity:0.7}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+	width: 20px;
+	height: 20px; 
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+	top:40%;
+}
+.nbs-flexisel-nav-left:hover,
+.nbs-flexisel-nav-right:hover{opacity:0.5}
+.nbs-flexisel-nav-right,
+.nbs-flexisel-nav-left {
+	background: url("images/next-pre.png") no-repeat scroll left -55px;
+    cursor: pointer;
+    
+	width: 28px;
+	height: 28px;
+    position: absolute;
+    left: 10px;
+    
+	top: 50%!important;
+	margin-top: -14px;
+}
+
+.nbs-flexisel-nav-right {
+	right:10px;
+	background-position: 0 0;
+	left: auto;
+}

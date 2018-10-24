@@ -1,0 +1,168 @@
+.clearfix:before,.clearfix:after{content:".";display:block;height:0;overflow:hidden}.clearfix:after{clear:both}.clearfix{zoom:1}
+	.leotheme-layout{
+		background:#f2f2f2;
+		width:800px;
+		margin:10 auto;padding:12px
+	}
+	.leotheme-layout > div, .leotheme-layout > div div{
+		position:relative;
+	}
+	.leo-container{ background:#dcdcdc; margin:8px 0px; position:relative; }
+	#leo-header .topbar, #leo-menu, #leo-slideshow, #leo-promotetop,#leo-bottom ,#leo-hfooter{
+		min-height:40px;
+		padding-top:26px;
+		padding-bottom:9px;
+	}
+
+
+	#leo-content {
+		clear:both;
+		display:block;
+		background:#dcdcdc
+	}
+	#leo-content #leo-left,#leo-content #leo-right{ width:25%;float:left;  min-height:200px}
+	#leo-content .leo-container,#leo-hheaderright {margin:0; padding-top:26px; padding-bottom:9px }
+		#leo-center{
+		 background: #dcdcdc;
+			
+			float: left;
+			min-height: 200px;
+			width: 50%;
+		}
+		#leo-center .leo-container{
+			border-left: 1px solid #CCCCCC;
+			border-right: 1px solid #CCCCCC;
+			height:100%;
+		}
+		
+	#leologo{  width:30%;float:left; min-height:60px}
+	#leo-hheaderright{
+		display:block;
+		float:right;
+		width:60%;
+		min-height:60px;
+	}
+	.placeholder{
+		background:#FFFFBB;
+	}
+	.module-pos{
+		max-width:199px;
+		margin:6px; 
+		cursor:move;
+	}
+	.leo-editmodule{
+		background:#FFF;
+	 
+		padding:5px 8px;
+		border:solid 1px #CCC;
+		font-size:10px;
+	}
+	.leo-editmodule img{width:14px}
+	.leo-container > div{
+		position:relative; 
+	}
+	.module-pos  .edithook{
+		position:absolute;
+		right: 5px;
+		top: 5px;
+		height:100%;
+		z-index:9;
+		cursor:pointer;
+		cursor:hand;
+	}
+	.module-pos  .edithook  a{
+		display: block;
+		height: 16px;
+		width: 16px;
+		float:left;
+	}
+	.module-pos  .edithook .edit{
+		background:url(edit.gif) no-repeat center center ;
+	}
+	.module-pos  .edithook .delete{
+		background:url(delete.gif) no-repeat center center ;
+	}
+	#leo-page .pos{
+		font-size: 11px;
+		font-weight: bold;
+		left: 0;
+		padding: 4px 12px;
+		position: absolute;
+		top: 0;
+		background:#FFF;
+		z-index:10
+	}
+	#leo-page .pos-right{
+		font-size: 11px;
+		font-weight: bold;
+		right: 5px;
+		padding: 4px 12px;
+		position: absolute;
+		top: 0;
+		background:#4787ED;
+		z-index:10
+	}
+	#leo-page .pos-right ul a{
+		color:#fff;
+	}
+	#leo-page .pos-right ul li{
+		line-height:20px;
+	}
+	.leotheme-layout{
+		width:68%;
+		float:left
+	}
+	.holdposition{
+		width:28%;
+		float:left;
+		min-height:600px;
+		background:#e1e1e1;
+		padding-top:24px;
+		margin-top:14px
+	}
+#overidehook{
+	background:#EEE;
+	padding:12px;
+	position:absolute;
+	z-index:99;
+	-webkit-box-shadow: 0 1px 2px #000;
+	-moz-box-shadow: 0 1px 2px #000;
+	box-shadow:0 1px 2px #000;
+	border:solid 1px #666
+}	
+#overidehook  #oh-close{
+	font-size:10px; font-weight:bold;
+	cursor:hand; cursor:pointer
+}
+#leo-copyright{
+	float:left;
+	width:50%;
+	margin-top:40px
+}
+#leo-footnav{
+	min-height:50px; 
+	padding-top:24px;
+	 float:right;
+	 width:48%
+}
+
+.process-icon-liveedit{
+  background-image: url("live-edit.png");
+}
+.process-icon-controlpanel {
+  background-image: url("control-panel.png");
+}
+ .note, #leo-page .note ul li{
+	font-size:10px; font-weight:normal;
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0;}
+#sortable li { margin: 0 3px 10px 3px; padding: 0.4em; padding-left: 1.5em; background: none repeat scroll 0 0 #E6E6E6 !important; }
+#sortable li span.ui-icon { position: absolute; margin-left: -1.3em; }
+
+.container_html label {
+    width: 110px;
+}
+.container_html .margin-form {
+    padding: 0 0 1em 120px;
+}

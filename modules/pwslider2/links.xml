@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<links>
+	<link>
+		<field1></field1>
+		<url>http://prestaweb.ru</url>
+		<img>slides/slide_01.jpg</img>
+	</link>
+	<link>
+		<field1></field1>
+		<url>http://prestaweb.ru</url>
+		<img>slides/slide_02.jpg</img>
+	</link>
+		<link>
+		<field1></field1>
+		<url>http://prestaweb.ru</url>
+		<img>slides/slide_03.jpg</img>
+	</link>
+</links>

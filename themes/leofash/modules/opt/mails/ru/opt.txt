@@ -1,0 +1,9 @@
+Вы получили сообщение от клиента Вашего интернет-магазина: {shop_name}
+fio: {fio}phone: {phone}
+E-mail: {email}
+
+Сообщение:
+{comment}
+
+
+{shop_url}

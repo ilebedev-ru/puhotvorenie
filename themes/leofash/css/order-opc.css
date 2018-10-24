@@ -1,0 +1,33 @@
+
+
+#orderopc  #left_column h2 {margin-top:20px}
+#opc_account_choice {padding:0 15px;}
+#opc_account_choice .opc_float {
+	display: block;
+    margin-top: 15px;
+}
+#opc_account_choice .opc_float  .title_block {
+	color: #4C4D4E;
+}
+#opc_account_choice .opc_float ul {margin:0 0 20px 20px}
+#opc_account_form .account_creation {
+	border:0;
+}
+form#new_account_form {}
+#new_account_form  fieldset {
+		margin: 0;
+}
+
+#new_account_form .id_state, #new_account_form .dni, #new_account_form .postcode {
+	display: none;
+}
+#opc_account_errors {
+	margin: 10px;
+	margin-bottom: 15px;
+}
+#center_column #new_account_form p#opc_account_saved {
+	color: green;
+	float: right;
+	margin-right: 20px;
+	padding: 0;
+}

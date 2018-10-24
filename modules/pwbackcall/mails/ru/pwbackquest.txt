@@ -1,0 +1,3 @@
+Вам задали вопрос (<a href="mailto:{contact}">{contact}</a>)
+
+{question}

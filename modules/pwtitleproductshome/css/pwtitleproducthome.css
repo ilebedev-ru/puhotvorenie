@@ -1,0 +1,27 @@
+.pwtitleproducthome {
+	text-align: center;
+	color: #000;
+	margin-bottom: 20px;
+}
+.pwtitleproducthome p {
+	font-size: 18px;
+}
+.pwtitleproducthome_title {
+	text-transform: uppercase;
+	padding-bottom: 0;
+	font-size: 24px;
+}
+@media screen and (max-width: 640px){
+	.pwtitleproducthome_title {
+		font-size: 20px;
+	}
+	.pwtitleproducthome p {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 450px){
+	.pwtitleproducthome_title {
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+}

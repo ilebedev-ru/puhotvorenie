@@ -1,0 +1,5 @@
+Current version:2.4.4
+Date release:	10/12/2014
+Author:	Onasusweb - http://onasus.com
+
+History

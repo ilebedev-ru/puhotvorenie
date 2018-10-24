@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<version value="1.5">
+		<ccc available="true" />
+		<guest_checkout available="true" />
+		<one_page_checkout available="true" />
+		<store_locator available="true" />
+	</version>
+	<author>leotheme</author>
+	<name>Leo Default</name>	
+	<layouts>
+		<layout>default</layout>
+		<layout>main-left-right</layout>
+	</layouts>
+	<positions>
+		<position>userTop</position>
+		<position>leftColumn</position>
+		<position>rightColumn</position>
+		<position>contentTop</position>
+	</positions>	
+	<skins>
+		<skin>default</skin>		
+		<skin>dark</skin>	 
+	</skins>
+	<modules>
+		<module>
+			<name>blockadvfooter</name>
+			<table_prefix>_loffc</table_prefix>
+		</module>
+		<module>
+			<name>leobootstrapmenu</name>
+			<table_prefix>btmegamenu</table_prefix>
+			<config_prefix>btmenu</config_prefix>
+		</module>
+		<module>
+			<name>leobtslider</name>
+			<table_prefix>leobtslider</table_prefix>
+		</module>
+		<module>
+			<name>leomanagewidgets</name>
+			<table_prefix>leomanagewidgets</table_prefix>
+		</module>
+	</modules>
+</theme>

@@ -1,0 +1,341 @@
+@-webkit-keyframes cdek_spin_circle {
+  0%,
+  100% {
+    box-shadow: 15px 15px #4f4d49, -15px 15px #dfdfdf, -15px -15px #4f4d49, 15px -15px #dfdfdf;
+  }
+  25% {
+    box-shadow: -15px 15px #dfdfdf, -15px -15px #4f4d49, 15px -15px #dfdfdf, 15px 15px #4f4d49;
+  }
+  50% {
+    box-shadow: -15px -15px #4f4d49, 15px -15px #dfdfdf, 15px 15px #4f4d49, -15px 15px #dfdfdf;
+  }
+  75% {
+    box-shadow: 15px -15px #dfdfdf, 15px 15px #4f4d49, -15px 15px #dfdfdf, -15px -15px #4f4d49;
+  }
+}
+
+.cdek_address
+{
+  margin-top: 20px;
+  position: relative;
+
+  & label
+  {
+    line-height: 27px;
+  }
+
+}
+
+/*
+.delivery_option for 1.6
+.delivery-option for 1.7
+*/
+
+.delivery_option,
+.delivery-option
+{
+
+  & .cdek_info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  & .form-control {
+    border: 1px solid #d6d4d4;
+  }
+
+  /* fix preloader cdek */
+  & .carrier-extra-content {
+    display: none !important;
+  }
+
+}
+
+
+/* .delivery-option for 1.7 */
+
+.delivery-option
+{
+
+  &.cdek_loading {
+    display: flex;
+  }
+
+  @media (max-width: 991px)
+  {
+    & .col-xs-12 {
+      width: 100%;
+    }
+  }
+
+}
+
+/* .delivery-option for 1.6 */
+
+.delivery_option
+{
+  @media (max-width: 767px)
+  {
+    & .table tbody > tr > td {
+      display: block;
+      width: 100% !important;
+    }
+
+    & .table-bordered {
+      border-top: none;
+
+      & > tbody > tr > td {
+        border: none;
+        border-top: 1px solid #d6d4d4;
+      }
+    }
+  }
+}
+
+  .cdek_loading
+  {
+    position: relative!important;
+
+    &:after
+    {
+      display: block!important;
+      content: ''!important;
+      clear: both;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(0,0,0, 0.3);
+      position: absolute!important;
+      z-index: 999;
+    }
+
+    &:before
+    {
+      content: ''!important;
+      display: block!important;
+      position: absolute!important;
+      margin: auto;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px;
+      z-index: 9999;
+      box-shadow: 9px 9px #4f4d49, -9px 9px #dfdfdf, -9px -9px #4f4d49, 9px -9px #dfdfdf;
+      -webkit-animation: cdek_spin_circle ease infinite 4s;
+    }
+  }
+
+  /* popup in map */
+
+  .cdek_pvz_list
+  {
+    background: #e9f9e2;
+    position: relative;
+    margin-top: 20px;
+
+    & .cdek_selected_wrap
+    {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
+
+    & .cdek_list
+    {
+      -webkit-transition: height 0.3s ease;
+      -moz-transition: height 0.3s ease;
+      -ms-transition: height 0.3s ease;
+      -o-transition: height 0.3s ease;
+      transition: height 0.3s ease;
+
+      & .cdek_selected_wrap
+      {
+        padding: 0;
+      }
+
+      & .cdek_pvz_list_item
+      {
+        padding: 15px 15px;
+        cursor: pointer;
+        font-size: 15px;
+
+        & .click_for_select
+        {
+          margin-top: 20px;
+          display: block;
+          background-color: #ca4d37;
+          text-align: center;
+          color: white;
+          padding: 5px 0;
+        }
+
+        &.active,
+        &:hover
+        {
+          background: #7bba63;
+          color: #FFFFFF;
+        }
+
+        & .cdek_item_address
+        {
+          margin-bottom: 20px;
+        }
+
+        & .cdek_item_phone
+        {
+          margin-bottom: 20px;
+        }
+
+        & .cdek_delivery_date_block
+        {
+          display: none;
+        }
+
+      }
+    }
+
+    & #ymaps_pvz {
+      width: 100%;
+      height: 500px;
+
+      & ymaps.ymaps-2-1-60-map {
+        width: 100% !important;
+      }
+    }
+
+  }
+
+
+  #seosa_manager_btn, .cdek_doc {
+    margin-bottom: -1px;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.42857;
+    border: 1px solid transparent;
+    border-radius: 3px 3px 0 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #00aff0;
+    margin-right: 2px;
+    border-bottom: 1px solid transparent;
+    margin-top: 4px;
+  }
+
+  #seosa_manager_btn:active, #seosa_manager_btn:focus,
+  .cdek_doc:active, .cdek_doc:focus  {
+    text-decoration: none;
+    color:#666;
+    cursor: default;
+  }
+  #seosa_manager_btn:hover, .cdek_doc:hover {
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color:#0077a4;
+  }
+  @media (min-width: 768px) {
+    .bootstrap .form-horizontal .control-label {
+      padding-top: 5px;
+    }
+    .form-wrapper .form-group:last-child .control-label.col-lg-3{
+      padding-top: 0;
+      top: -4px;
+    }
+  }
+
+  .map_item
+  {
+    background: #FFFFFF;
+    border: 1px solid #7bba63;
+    cursor: pointer;
+  }
+
+  .cdek_pvz_list
+  {
+    & > .cdek_selected
+    {
+      & .click_for_select
+      {
+        display: none;
+      }
+    }
+  }
+
+  .balloon_message
+  {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .ui-rangeSlider-label
+  {
+    bottom: 30px!important;
+  }
+
+  .ui-rangeSlider
+  {
+    padding-top: 11px!important;
+  }
+
+  .wrapp_balloon
+  {
+    &:after
+    {
+      content: '';
+      clear: both;
+      display: block;
+    }
+  }
+
+  table.ui-datepicker-calendar td
+  {
+    padding: 1px!important;
+  }
+
+  /*   clockPicker   */
+
+
+.cdek_delivery_date_block div div {
+  float: left;
+  line-height: 2em;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+
+.cdek_delivery_date
+{
+  cursor: pointer!important;
+  background: #FFFFFF!important;
+  width: 110px;
+}
+
+.clockpicker {
+  width: 110px;
+
+  & .input-group-addon {
+    cursor: pointer;
+    padding: 0.4rem 0.75rem;
+  }
+}
+
+.glyphicon-time:before {
+  font-family: "FontAwesome";
+  content: "\f017";
+}
+
+/* AdminCdekSetting */
+
+.bootstrap .AdminCdekSetting .select_order_state.fixed-width-xl {
+  width: 100% !important;
+  height: 200px;
+}

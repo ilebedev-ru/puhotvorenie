@@ -1,0 +1,60 @@
+/* Block editorial */
+.editorial_block {
+    padding: 2em 0;
+}
+
+.editorial_block .about-store {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 69%;
+    padding: 0 30px;
+}
+
+.editorial_block img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+
+@media screen and (max-width: 570px) {
+    .editorial_block .about-store{
+        width: 100%;
+    }
+    .editorial_block img {
+        width: 60%;
+        display: block;
+        margin: 15px auto 0;
+    }
+}
+
+.editorial_block .about-store h1 {
+    margin: 25px;
+    padding: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+}
+
+.editorial_block .about-store h2 {
+    line-height: 1.2em;
+    color: #757575;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#editorial_block_center .about-store p {
+    color: #757575;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-family: Georgia, sans-serif;
+
+}
+
+#editorial_block_center p#editorial_image_legend {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #666;
+    font-size: 10px;
+}
+

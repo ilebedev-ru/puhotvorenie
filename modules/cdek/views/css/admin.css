@@ -1,0 +1,32 @@
+.data_api {
+  position: relative; }
+  .data_api .request_code {
+    display: none; }
+  .data_api > button {
+    display: inline-block;
+    line-height: 32px;
+    width: 32px;
+    text-align: center;
+    font-size: 30px; }
+  .data_api input[type=checkbox] {
+    display: none; }
+    .data_api input[type=checkbox]:checked + .request_code {
+      display: block;
+      position: absolute;
+      max-width: 500px;
+      right: 0;
+      z-index: 9; }
+      .data_api input[type=checkbox]:checked + .request_code code {
+        padding: 30px;
+        word-wrap: break-word; }
+
+.show_more {
+  width: 100%; }
+
+.float-right {
+  float: right; }
+
+.datepicker {
+  cursor: pointer; }
+
+/*# sourceMappingURL=admin.css.map */

@@ -1,0 +1,7 @@
+#currencies_block_top .dropdown-menu {
+    
+	min-width: 75px;
+}
+#currencies_block_top .dropdown-menu { margin-top: 0;}
+#currencies_block_top .dropdown-menu li a { border-bottom: 0; padding: 5px 0;}
+#currencies_block_top ul {list-style: none;} 

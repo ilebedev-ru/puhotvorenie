@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_1b94af23fd8ea879910a6307460ebba4'] = 'Geregistreerde klanten overzicht';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_ff9c34d2829b95a0936b22b409640143'] = 'Geef karakteristieken weer zoals geslacht en leeftijd.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_62a9b5081b2dab89113e94a0b4cb4be0'] = 'De geslachtsverdeling geeft u de mogelijkheid om het percentage mannen en vrouwen onder uw klanten te bepalen.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_998e4c5c80f27dec552e99dfed34889a'] = 'Export CSV';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_4c5625b65180ffa4f4ad215c2d5ef7d7'] = 'De leeftijdsverdeling geeft u de mogelijkheid om de verdeling van de leeftijd van uw klanten te bepalen.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_3a5c52ba51fe8f566a222da649c5e1f1'] = 'Landenverdeling geeft u de mogelijkheid om te bepalen vanuit welk deel van de wereld uw klanten winkelen.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_e0fcbbd416a4872ec8f91fefa823debe'] = 'Valuta reeksen stellen u in staat om te bepalen welke valuta uw klanten gebruiken.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_7cede292ed06f274bb9e8702738c058e'] = 'Taalverdeling geeft u de mogelijkheid om te bepalen welke talen uw klanten gebruiken in uw winkel.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_9fde3510abe63111086fd4288a19e1be'] = 'Er zijn nog geen geregistreerde klanten.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_6602bbeb2956c035fb4cb5e844a4861b'] = 'Guide';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_ce2dd26ca39bdbc6444f4dad3fa5d5fe'] = 'Richt u op uw doelgroep';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_74036f0101d2f3f9b082b8de981c18dc'] = 'Omdat elk bericht een bepaalde impact moet hebben, is het noodzakelijk dat u weet aan wie het gericht moeten worden.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_daa0ad6a8b07a64f18b26e0f5e1255bd'] = 'Op de juiste doelgroep richten is essentieel voor het kiezen van de juiste gereedschappen om hen over te halen.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_4f7fe9e063af69bcd7f73d2011722c00'] = 'Het is het beste om u te beperken tot een groep of groepen van klanten.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_04cac0902d33f8d779111bddde436f03'] = 'Geregistreerde klanten informatie staat u toe om precies te definieren wat het klantenprofiel is zodat u uw aanbiedingen kunt aanpassen aan bepaalde criteria.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_1b97d8091d4b383e8316b5bf85b2194c'] = 'U kunt deze informatie gebruiken om uw verkopen te vergroten met';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_aaf4306af7449d0b6b99e8df15f422a2'] = 'het lanceren van reclamecampagnes gericht op specifieke klanten die geinteresseerd kunnen zijn in een speciale aanbieding op specifieke data en tijdstippen.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_416e130b744a7becbe84de8e251135bb'] = 'Een groep klanten te benaderen via e-mail of nieuwsbrief.';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_8dc514f6da8c696c4a522efc145ad28a'] = 'Geslachtsverdeling';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_63889cfb9d3cbe05d1bd2be5cc9953fd'] = 'Man';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_b719ce180ec7bd9641fece2f920f4817'] = 'Vrouw';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_88183b946cc5f0e8c96b2e66e1c74a7e'] = 'Onbekend';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_2d0f27acbb474dff9aba76851970618a'] = 'Leeftijdcategorieën';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_6e69fbf88d84db874f365542b0284a95'] = '0 tot 17 jaar';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_b20e0ed6158978a3a23d092060b5dbab'] = '18 tot 24 jaar';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_e5884ca49180d38295ee426c624d936c'] = '25 tot 34 jaar';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_62ce9f61153b331eabe9efc2fc7eb5c2'] = '35 tot 49 jaar';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_a7724f78dcdf2179c5ca651d15ed5b2c'] = '50 tot 59 jaar';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_6a239f88f1aeb0561e7786b6120d1d5e'] = '60 jaar en ouder';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_73b0130037e21b76351aebfd29d0b9aa'] = 'Landverdeling';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_28e81c8343702f6c813cc31a7f90616a'] = 'Valutaverdeling';
+$_MODULE['<{statspersonalinfos}leofash>statspersonalinfos_f1dd68fb6a00d3e4d7f751deacde995d'] = 'Taalverdeling';

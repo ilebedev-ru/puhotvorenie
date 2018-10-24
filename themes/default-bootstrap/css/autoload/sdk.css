@@ -1,0 +1,25 @@
+
+@media (min-width: 991px) {
+    #header #search_block_top {
+        width:323px;
+        padding-top: 0px;
+        position: absolute;
+        right: 0;
+        top: 18px;
+    }
+    .header-container #header .shopping_cart {
+        padding-top: 70px;
+    }
+
+}
+@media (min-width: 1199px) {
+
+    #header #search_block_top {
+        padding-top: 0px;
+        position: absolute;
+        right: 0;
+        width:300px;
+        top: 18px;
+    }
+
+}

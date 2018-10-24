@@ -1,0 +1,42 @@
+div.addresses {}
+
+ul.address {
+   list-style-type:none;
+   padding-bottom: 10px;
+   margin-bottom: 15px;
+}
+
+ul.address li {
+	padding:5px 15px;
+}
+
+ul.address li.address_title {
+    border-bottom: 1px solid #CCCCCC;
+    line-height:29px;
+	font-size: 16px; 
+}
+ul.address .address_alias {
+	font-weight: normal;
+	text-transform: none;
+}
+ul.address >li:first-child + li {
+	margin-top:8px
+}
+
+ul.address  li.address_update {
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.address_add {
+   padding:20px 0
+}
+
+
+/* PAGE ADRESSES ******************************************************************************* */
+
+.addresses ul.address .address_update,
+.addresses ul.address .address_delete {
+	display: inline-block;
+}
+
