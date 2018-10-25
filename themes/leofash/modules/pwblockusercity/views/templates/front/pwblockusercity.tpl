@@ -1,8 +1,9 @@
 <!--pwblockusercity (overrided)-->
 <div class="header-change-city">
 	<div class="header-change-city-widget">
-		<div>Ваш регион:</div>
-		<a href="#" class="header-change-city-link" onClick="yaCounter22742683.reachGoal('cityChange');return true;">{$city}</a>&nbsp;<i class="fa fa-chevron-down"></i>
+		<a href="#" class="header-change-city-link" onClick="yaCounter22742683.reachGoal('cityChange');return true;">
+			<span>{$city}</span>
+		</a>
 	</div>
 	{hook h='displayDeliveryDuration'}
 	{if $deliveryShow}

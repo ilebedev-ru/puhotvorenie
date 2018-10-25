@@ -24,15 +24,15 @@
 *}
 
 <!-- Block user information module HEADER -->
-<ul id="header_user_info">
-	<li ><a href="{$link->getModuleLink('pwfavoriteproducts', 'account')|escape:'html':'UTF-8'}" title="Список желаемого">Список желаемого</a></li>
-	{*<li ><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='My Account' mod='blockuserinfo'}" >{l s='My Account' mod='blockuserinfo'}</a></li>*}
+<div id="header_user_info">
+	<a class="wish not-empty" href="{$link->getModuleLink('pwfavoriteproducts', 'account')|escape:'html':'UTF-8'}" title="Список желаемого">Мои желания <span>{$countwishlist}</span></a>
+	{*<a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='My Account' mod='blockuserinfo'}" >{l s='My Account' mod='blockuserinfo'}</a>*}
 	{if $logged}
-		<li><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow"><span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span></a></li>
-		{*<li><a href="{$link->getPageLink('index', true, NULL, "mylogout")|escape:'html'}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout" rel="nofollow">{l s='Log out' mod='blockuserinfo'}</a></li>*}
+		<a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow"><span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span></a>
+		{*<a href="{$link->getPageLink('index', true, NULL, "mylogout")|escape:'html'}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout" rel="nofollow">{l s='Log out' mod='blockuserinfo'}</a>*}
 	{else}
-		<li><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='Login to your customer account' mod='blockuserinfo'}" class="login" rel="nofollow">{l s='Login' mod='blockuserinfo'}</a></li>
-		{*<li><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='Login to your customer account' mod='blockuserinfo'}" class="login" rel="nofollow">{l s='Register' mod='blockuserinfo'}</a></li>*}
+		<a class="cab" href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='Login to your customer account' mod='blockuserinfo'}" class="login" rel="nofollow">{l s='Login' mod='blockuserinfo'}</a>
+		{*<a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='Login to your customer account' mod='blockuserinfo'}" class="login" rel="nofollow">{l s='Register' mod='blockuserinfo'}</a>*}
 	{/if}
-</ul>
+</div>
 <!-- /Block user information module HEADER -->

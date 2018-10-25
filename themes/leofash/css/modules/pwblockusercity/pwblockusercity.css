@@ -15,17 +15,28 @@
 }
 
 .header-change-city-link {
+  display: inline-block;
+  padding-left: 21px;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #be40de;
+  position: relative;
+}
 
-	font-size: 14px;
+.header-change-city-link:before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAgMDAwMDBAcFBAQEBAkGBwUHCgkLCwoJCgoMDREODAwQDAoKDhQPEBESExMTCw4UFhQSFhESExL/2wBDAQMDAwQEBAgFBQgSDAoMEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhL/wgARCAAQAAwDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwUHCP/EABYBAQEBAAAAAAAAAAAAAAAAAAQBAv/aAAwDAQACEAMQAAAA2A8S7WRW24aP/8QAIhAAAQMEAgIDAAAAAAAAAAAAAQIDBAUGESEABxNBFjFC/9oACAEBAAE/ALHsw9/P12u3pWqmw5FmliJBiuhIiDGRog63jWMlJyeW13dcNjsTqEtHyRulz3o7E9eVFTaDgAHOxrIz6PO7OsKxbN4KqNlpmmDc7/jLURSgUvrO2zj8qOx6+xzq3rCFYtnxqdOYjS5yyX5jqkBQLqgMhOfQAA5//8QAHREAAgIBBQAAAAAAAAAAAAAAAgMAEQEEEyIxQf/aAAgBAgEBPwA2bFCOISAPl1c07hIKLyNdkyvE/8QAHREAAgIBBQAAAAAAAAAAAAAAAgMAEQESEyExQf/aAAgBAwEBPwAA3byWYLiHjuOWQlY+xatI1P/Z);
+}
 
-	border-bottom: 1px dashed #be40de;
-
-    color:#be40de;
-
-	cursor: pointer;
-
-    font-weight: bold;
-
+.header-change-city-link span {
+    border-bottom: 1px dashed #be40de;
 }
 
 .header-change-city-link:hover{

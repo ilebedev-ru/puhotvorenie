@@ -24,5 +24,5 @@ $_MODULE['<{blockuserinfo}leofash>nav_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Во
 $_MODULE['<{blockuserinfo}leofash>blockuserinfo_bea8d9e6a0d57c4a264756b4f9822ed9'] = 'Мой аккаунт';
 $_MODULE['<{blockuserinfo}leofash>blockuserinfo_4394c8d8e63c470de62ced3ae85de5ae'] = 'Выход';
 $_MODULE['<{blockuserinfo}leofash>blockuserinfo_b145abfd6b2f88971d725cbd94a5879f'] = 'Войти в вашу учетную запись покупателя';
-$_MODULE['<{blockuserinfo}leofash>blockuserinfo_99dea78007133396a7b8ed70578ac6ae'] = 'Вход';
+$_MODULE['<{blockuserinfo}leofash>blockuserinfo_99dea78007133396a7b8ed70578ac6ae'] = 'Личный кабинет';
 $_MODULE['<{blockuserinfo}leofash>blockuserinfo_0ba7583639a274c434bbe6ef797115a4'] = 'Регистр';

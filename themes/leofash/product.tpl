@@ -314,6 +314,7 @@
     </script>
 
     <div id="primary_block" class="row block clearfix">
+        <h1 class="product-title">{$product->name|escape:'htmlall':'UTF-8'}</h1>
 
 
     {*{fd($product)}*}
@@ -353,14 +354,14 @@
 
         {/if}
 
-
+        {*<p  class="buttons_bottom_block btn">*}
 
 
 
 
         <!-- right infos-->
 
-        <div id="pb-right-column" class="col-md-4 col-sm-6">
+        <div id="pb-right-column" class="col-md-7 col-sm-6">
 
             <!-- product img-->
 
@@ -487,33 +488,72 @@
 
         <!-- left infos-->
 
-        <div id="pb-left-column" class="col-md-8 col-sm-6">
+        <div id="pb-left-column" class="col-md-5 col-sm-6">
 
-            <h1 class="product-title">{$product->name|escape:'htmlall':'UTF-8'}</h1>
+            {if $product->description_short OR $packItems|@count > 0}
 
-            <script async src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-            <script async src="//yastatic.net/share2/share.js"></script>
-            <span class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir"></span>
+                <div id="short_description_block">
 
-            {* {if $product->quantity>=0} *}
+                    <!-- <p class="title">ОПИСАНИЕ</p> -->
 
-                <p><span class="product-green">Есть в наличии</span></p>
+                    {if $product->description}
 
-           {* {else} *}
+                        <div id="short_description_content" class="rte align_justify">{$product->description}</div>
 
-                {* <span class="product-red">Нет в наличии</span> *}
+                    {/if}
 
-            {* {/if} *}
+                    
 
-            <p id="product_reference"
+                    {if $packItems|@count > 0}
 
-               {if isset($groups) OR !$product->reference}style="display: none;"{/if}>
+                        <div class="short_description_pack">
 
-                <label for="product_reference">{l s='Reference:'} </label>
+                            <h3>{l s='Pack content'}</h3>
 
-                <span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
+                            {foreach from=$packItems item=packItem}
 
-            </p>
+                                <div class="pack_content">
+
+                                    {$packItem.pack_quantity} x <a
+
+                                            href="{$link->getProductLink($packItem.id_product, $packItem.link_rewrite, $packItem.category)|escape:'html'}">{$packItem.name|escape:'htmlall':'UTF-8'}</a>
+
+                                    <p>{$packItem.description_short}</p>
+
+                                </div>
+
+                            {/foreach}
+
+                        </div>
+
+                    {/if}
+
+                </div>
+
+            {/if}
+
+            <div class="prod-detail">
+
+                {* {if $product->quantity>=0} *}
+
+                    <span class="product-green">В наличии, отправим сегодня</span>
+
+               {* {else} *}
+
+                    {* <span class="product-red">Нет в наличии</span> *}
+
+                {* {/if} *}
+
+                <p id="product_reference"
+
+                   {if isset($groups) OR !$product->reference}style="display: none;"{/if}>
+
+                    <label for="product_reference">{l s='Reference:'} </label>
+
+                    <span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
+
+                </p>
+            </div>
 
             <div class="content_prices clearfix">
 
@@ -668,53 +708,11 @@
 
             </div>
 
-            <div class="standard_product_info">
+            <!-- <div class="standard_product_info">
 
                 <span>Натуральный козий пух</span><span>Возможность примерить перед оплатой</span><span>Оплата при получении товара</span>
-            </div>
+            </div> -->
 
-
-            {if $product->description_short OR $packItems|@count > 0}
-
-                <div id="short_description_block">
-
-                    <!-- <p class="title">ОПИСАНИЕ</p> -->
-
-                    {if $product->description}
-
-                        <div id="short_description_content" class="rte align_justify">{$product->description}</div>
-
-                    {/if}
-
-                    
-
-                    {if $packItems|@count > 0}
-
-                        <div class="short_description_pack">
-
-                            <h3>{l s='Pack content'}</h3>
-
-                            {foreach from=$packItems item=packItem}
-
-                                <div class="pack_content">
-
-                                    {$packItem.pack_quantity} x <a
-
-                                            href="{$link->getProductLink($packItem.id_product, $packItem.link_rewrite, $packItem.category)|escape:'html'}">{$packItem.name|escape:'htmlall':'UTF-8'}</a>
-
-                                    <p>{$packItem.description_short}</p>
-
-                                </div>
-
-                            {/foreach}
-
-                        </div>
-
-                    {/if}
-
-                </div>
-
-            {/if}
             <div class="btn-block">
 
                 <!-- quantity wanted -->
@@ -737,8 +735,6 @@
 
                 *}
 
-                {*<p  class="buttons_bottom_block btn">*}
-
                 {*<button id="add_to_cart" {if (!$allow_oosp && $product->quantity <= 0) OR !$product->available_for_order OR (isset($restricted_country_mode) AND $restricted_country_mode) OR $PS_CATALOG_MODE}style="display:none"{/if} type="submit" name="Submit" class="exclusive"><i class="fa fa-shopping-cart"></i> Купить</button>*}
 
                 {*</p>*} <label id="add_to_cart" for="add_cart"
@@ -747,7 +743,7 @@
 
                             class="buttons_bottom_block btn button exclusive">
 
-                    <i class="fa fa-shopping-cart"></i>
+               <!--      <i class="fa fa-shopping-cart"></i> -->
 
                     <input id="add_cart" type="submit" name="Submit" value="{l s='Add to cart'}" class="button exclusive"/>
                     
@@ -756,13 +752,13 @@
                 <div class="go_to_cart">                
                 	<a rel="nofollow" href="https://puhotvorenie.ru/order"><span>Товар добавлен</span><br>Перейти в корзину</a>
                 </div>               
-                {*<span class="or">или введите<br>номер телефона</span>
+                {*<span class="or">или </span>
 
                 <div class="order-now">
 
                     <label for="phone-number" class="phone-number">+7<input id="phone-number" type="text"></label>
 
-                    <button class="exclusive">БЫСТРЫЙ ЗАКАЗ →</button>
+                    <button class="exclusive">БЫСТРЫЙ ЗАКАЗ</button>
 
                 </div>*}
 

@@ -29,14 +29,14 @@
         <ul id="header_nav" class="links list-inline">
             <li><a href="{$link->getPageLink($order_process, true)|escape:'html'}"
                    title="{l s='View my shopping cart' mod='blockuserinfo'}" rel="nofollow">
-                    <i class="fa fa-shopping-cart"></i></a></li>
+                   <!--  <i class="fa fa-shopping-cart"></i></a></li> -->
             <li id="shopping_cart">
                 <a href="{$link->getPageLink($order_process, true)|escape:'html'}"
                    title="{l s='Просмотреть карзину' mod='blockuserinfo'}" rel="nofollow">
                     <span>{l s='Корзина:' mod='blockuserinfo'}</span>
                     <span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
-                    <span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">шт.</span>
-                    <span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">шт.</span>
+<!--                     <span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">шт.</span>
+                    <span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">шт.</span> -->
                     {*<span class="ajax_cart_total{if $cart_qties == 0} hidden{/if}">*}
 					{*{if $cart_qties > 0}*}
                         {*{if $priceDisplay == 1}*}
@@ -58,7 +58,7 @@
         </ul>
     {/if}
     <div class="link-order-btn{if $cart_qties == 0} hidden{/if}">
-        <a class="button" href="{$link->getPageLink($order_process, true)|escape:'html'}">Оформить заказ »</a>
+        <a class="button" href="{$link->getPageLink($order_process, true)|escape:'html'}">Оформить заказ</a>
     </div>
 </div>
 <!-- /Block user information module HEADER -->

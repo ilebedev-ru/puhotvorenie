@@ -1,6 +1,22 @@
 /* block top user information */
 #header_user {
-    margin: 0 10px;
+    padding-left: 56px;
+    position: relative;
+    margin-left: 50px;
+    width: 180px;
+}
+
+#header-main #header_user:before {
+    content: '';
+    display: block;
+    border: 2px solid #cb75dc;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAMAAADDGrRQAAAAYFBMVEUAAADOfd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd7Ofd4plqocAAAAH3RSTlMAiFURSjD74XZqF/Dc1MvEopuQhX0iDgTq2MC2UkI7jsFQoQAAAHBJREFUGNNtzUcOg0AQRNE2TCYnY5Pq/rdE0AjNSP1XpbcpKgGjKG1zrmg+cf7iFWmXjYIpwXLB6C9YK5iPoKi62zRgbNMOXukvPc2mn4nSFLrsLbANiHJs2i4hv5vqcmLrgZ1XBoy8jl/9/IXKajoBWIAR1NhbbYMAAAAASUVORK5CYII=) center center no-repeat;
 }
 
 #header_user #header_nav {
@@ -9,7 +25,17 @@
 
 #header_user .links li .ajax_cart_quantity,
 #header_user .links li .ajax_cart_product_txt {
+    background: #ff1d1d;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    border-radius: 50%;
 }
 
 #header_user .links li {
@@ -50,33 +76,100 @@
 
 }
 #header_user .link-order-btn .button{
-    background: #ffd74d;
-    color: #000;
-    border: none;
-    padding: 5px 20px;
-    line-height: 1.5;
-    font-size: 1em;
+        display: inline-block;
+    margin-top: 5px;
+    height: 23px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 9px;
+    background: #cb74dc;
+    background: -moz-linear-gradient(top, #cb74dc 0%, #b85cca 100%);
+    background: -webkit-linear-gradient(top, #cb74dc 0%, #b85cca 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cb74dc), to(#b85cca));
+    background: -o-linear-gradient(top, #cb74dc 0%, #b85cca 100%);
+    background: linear-gradient(to bottom, #cb74dc 0%, #b85cca 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb74dc', endColorstr='#b85cca',GradientType=0 );
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0 10px;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b85cc9;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
 }
+
 #header_user .link-order-btn .button:hover{
-    color: #FFF;
+    border-color: #dfe3e6;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #edeeef 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #edeeef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#edeeef));
+    background: -o-linear-gradient(top, #ffffff 0%, #edeeef 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #edeeef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeeef',GradientType=0 );
+    color: #cb74dc;
 }
+
 .phone-numbers .communication-btn a {
-    margin-top: 8px;
-    display: inline-block;
-    margin-right: 4%;
-    color: #be40de;
-    border: 1px solid #be40de;
-    cursor: pointer;
-    font-size: 1em;
-    text-align: center;
-    line-height: 1;
-    padding: 5px 7px;
+    display: block;
+    white-space: nowrap;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 17px 0 37px;
+    position: relative;
+    background: #cb74dc;
+    background: -moz-linear-gradient(top, #cb74dc 0%, #b85cc9 100%);
+    background: -webkit-linear-gradient(top, #cb74dc 0%, #b85cc9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cb74dc), to(#b85cc9));
+    background: -o-linear-gradient(top, #cb74dc 0%, #b85cc9 100%);
+    background: linear-gradient(to bottom, #cb74dc 0%, #b85cc9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb74dc', endColorstr='#b85cc9',GradientType=0 );
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b95fcb;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.phone-numbers .communication-btn a:before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin-top: -7px;
+    width: 15px;
+    height: 15px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAeCAMAAADEgrRGAAAAeFBMVEUAAAC+QN6+QN7///++QN7///++QN6+QN7///++QN7///////////++QN7///////////////++QN7///////++QN7///++QN7///++QN7///////++QN7///++QN7///++QN6+QN6+QN7///++QN6+QN7///++QN7vbwVqAAAAJnRSTlMAs/IHB6mpRt/ftrBOTkj17KWlmYODX19WVj4xMRgYyMial3h4O5W8184AAACpSURBVBjTTY5XFsIwDASduJACIRUSSujS/W+I/Bw/7/zNWmtJKV3XCtAV0QXcEtEDnDz75IX3JvkgOsL8VdwqoMO+cG+JjrixIQlkYv7oEJxI6EaiYo5BpNoq7eZ1/NSGZ53uGAqyXk2WwTJR5h24Y+YnOHsOyUtRLLxFJ5i/iTsF9NgX1pw5/0GwYwlkYvmaEJxZ6CfmcolBJNsqObqwuqAm3fEqc2fUHxTwFdIkOn82AAAAAElFTkSuQmCC) 0 0 no-repeat;
 }
 
 .phone-numbers .communication-btn a:hover {
-    color: #fff;
-    background: #be40de;
+    border: 1px solid #d9dfe2;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #edeeee 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #edeeee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#edeeee));
+    background: -o-linear-gradient(top, #ffffff 0%, #edeeee 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #edeeee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeeee',GradientType=0 );
+    color: #be40de;
 }
+
+.phone-numbers .communication-btn a:hover:before {
+    background-position: left bottom;
+}
+
 #shopping_cart a span:first-child{
     font-size: 16px;
     font-weight: bold;

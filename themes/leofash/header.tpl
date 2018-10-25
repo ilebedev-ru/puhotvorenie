@@ -109,11 +109,9 @@
 			<header id="header" class="block clearfix">
 				<section id="topbar">
 					<div class="container"> 
-						<div class="top-wrap">
-							{hook h='displayTop'}
-						</div>
-						<div class="top_half"><div class="regions-select">{hook h='regionSelect' mod='pwblockusercity'}</div></div>
-						<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+						{hook h='displayTop'}
+				<!-- 		<div class="top_half"><div class="regions-select"></div></div>
+						<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div> -->
 					</div>
 				</section>
 				<section id="header-main">
@@ -124,8 +122,8 @@
 						<div class="regions-select">{hook h='regionSelect' mod='pwblockusercity'}</div>
 						<div class="header-logo"> 
 								<a id="header_logo" href="https://puhotvorenie.ru" title="{$shop_name|escape:'htmlall':'UTF-8'}">
-									<img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" />
-									<p style="color: #572664; text-align: right;">Самый большой выбор пуховых платков</p>
+									<img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" width="227" />
+								<!-- 	<p style="color: #572664; text-align: right;">Самый большой выбор пуховых платков</p> -->
 								</a> 
 						</div>
 						<div id="header_right">							

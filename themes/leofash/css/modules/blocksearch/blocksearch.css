@@ -1,19 +1,19 @@
 /* block top search */
 
 #searchbox  .button {
-    background: url("img/icon-search.png") no-repeat scroll 0 0 transparent;
-    border: medium none;
-    box-shadow: none;
-    height: 18px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    left: 10px;
+    top: 50%;
+    border: 0;
+    margin-top: -7px;
+    position: absolute;
     padding: 0;
-    text-indent: 999px;
-    width: 13px;
-	border-color: transparent;
-	position: absolute;
-	right: 4px;
-	top: 8px;
-	overflow: hidden;
+    color: transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAAaVBMVEUAAADLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddzLddyp93M1AAAAInRSTlMA7uUOsGEy+MrFq1D7697To52Xk35raUszJRzvubiHWUNBeTtdtQAAAH1JREFUCNdVikcOw0AQw7a59xrb6fz/IzOYdYCEBwkSaIRLcFk77ibiS5R6iVtmsT5nB4nK8FAtx3rpQBG9I1PhymoiNwZJqM7dEyRb5nPnTJIjzut8RXOvKQ7pd0On/wLZvc8Bm+qRNCB09nv4ZCinymxybOaH1OLM3+HCB7WkCUAN+t6QAAAAAElFTkSuQmCC);
 }
+
 #search_query_top {
 	border-radius: 0;
 	/*height: 31px;*/
