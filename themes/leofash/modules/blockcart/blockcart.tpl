@@ -59,7 +59,7 @@ var generated_date = {$smarty.now|intval};
 				{/if}
 			{/if}
 		</span>
-		<span class="ajax_cart_no_product" {if $cart_qties != 0}style="display:none"{/if}>{l s='(empty)' mod='blockcart'}</span>
+		<span class="ajax_cart_no_product" {if $cart_qties != 0}style="display:none"{/if}> {l s='(empty)' mod='blockcart'}</span>
 	</div>
 	<!-- block list of products -->
 	<div id="cart_block_list" class="{if isset($colapseExpandStatus) && $colapseExpandStatus eq 'expanded' || !$ajax_allowed || !isset($colapseExpandStatus)}expanded{else}collapsed{/if}">
@@ -103,7 +103,7 @@ var generated_date = {$smarty.now|intval};
 		{/foreach}
 		</dl>
 	{/if}
-		<p class="cart_block_no_products{if $products} hidden{/if}" id="cart_block_no_products">{l s='No products' mod='blockcart'}</p>
+		<p class="cart_block_no_products{if $products} hidden{/if}" id="cart_block_no_products"> {l s='No products' mod='blockcart'}</p>
 		<table id="vouchers"{if $discounts|@count == 0} style="display:none;"{/if}>
 			<tbody>
 			{foreach from=$discounts item=discount}

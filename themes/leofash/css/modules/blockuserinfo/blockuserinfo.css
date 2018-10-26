@@ -45,6 +45,19 @@
 #header_user .links li .no-goods {
     font-size: 10px;
     font-style: italic;
+    line-height: 1.2;
+    border-radius: 0;
+    color: #666;
+    width: 100px;
+    background: none;
+}
+
+#header_user .links li .hidden {
+    display: none;
+}
+
+#header_user .links li .ajax_cart_no_product {
+    margin: 5px;
 }
 
 #header_user .links i {

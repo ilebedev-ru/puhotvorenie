@@ -43,7 +43,7 @@
 					{/if}
 				{/if}
 			</span>
-			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='(empty)' mod='blockuserinfo'}</span>
+			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}"> {l s='(empty)' mod='blockuserinfo'}</span>
 			</a>
 		</li>
 		{/if}
